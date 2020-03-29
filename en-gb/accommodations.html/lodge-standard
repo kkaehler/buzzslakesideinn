@@ -2,8 +2,8 @@
 
 <html lang="en-gb" class="clip-paths">
   <head>
-
-
+    
+    
 
 <script type="text/javascript">
 (function() {
@@ -15,30 +15,30 @@
     typeof window.B.data === 'object' || (window.B.data = {});
     typeof window.B.components === 'object' || (window.B.components = {});
 
-
+    
     typeof window.booking === 'object' || (window.booking = window.B);
 
-    B.env.global_translation_tags = {"rlm":"\u200f","nbsp":"&nbsp;","line_break":"\u003cbr\u003e","lrm":"\u200e","zwsp":"\u200b"};
-    B.env.params = {};
+    B.env.global_translation_tags = {"line_break":"\u003cbr\u003e","nbsp":"&nbsp;","rlm":"\u200f","zwsp":"\u200b","lrm":"\u200e"};
+    B.env.params = {"room_id":"479"};
     B.env.route_params = "";
-    B.env.action = "index";
-    B.env.pid = "26417c493324001c";
+    B.env.action = "room";
+    B.env.pid = "5e0f7cc04607016d";
     B.env.stype = 48;
-    B.env.currency = {"symbol":"US$","code":"USD","exchange_rate":1};
+    B.env.currency = {"symbol":"US$","exchange_rate":1,"code":"USD"};
     B.env.channel = "booking";
     B.env.google_analytics_tag = "";
     B.env.lang = "en-gb";
     B.env.lang_short_code = "en";
     B.env.private_lang_code = "en";
     B.env.ajax_action_host = "https://reservation.booking.expert";
-    B.env.csrf_token = "0xWBXgAAAAA=YVk0EwTABUIRT3OUP1nPsrhuLnZDQ0z6r5snOTj00ZlyhXgm8g2bsZYIH7jyT0vlVr86SEVnlodMiydr718VSsiIzayG5mJp9K8E7-6shU24KmWXR2Iq2dYBEw0Gxcm5_kGs3EVQx_mW-r5cgri1UAbyggJ6w8QmJgxct398F4NvOwdEugwAWgDl9KiLVFwjWfQhYt452x0XqrIn";
-    B.env.urls = {"verify":"https://reservation.booking.expert/en-gb/verify?h=hhecddb","reviews":"https://www.lakesideinn.net/en-gb/reviews","book":"https://reservation.booking.expert/en-gb/book?h=hhecddb","attractions":"https://www.lakesideinn.net/en-gb/location","facilities":"https://www.lakesideinn.net/en-gb/amenities","cookie_policy":"https://www.lakesideinn.net/en-gb/cookie-policy","sitemap":"https://www.lakesideinn.net/en-gb/sitemap","privacy_policy":"https://www.lakesideinn.net/en-gb/privacy-policy","home":"https://www.lakesideinn.net/en-gb","contact":"https://www.lakesideinn.net/en-gb/contact","rooms":"https://www.lakesideinn.net/en-gb/accommodations","photos":"https://www.lakesideinn.net/en-gb/photos","search":"https://reservation.booking.expert/en-gb/search?h=hhecddb","confirm":"https://reservation.booking.expert/en-gb/confirm?h=hhecddb","dining":"https://www.lakesideinn.net/en-gb/dining"};
+    B.env.csrf_token = "";
+    B.env.urls = {"cookie_policy":"https://www.lakesideinn.net/en-gb/cookie-policy","confirm":"https://reservation.booking.expert/en-gb/confirm?h=hhecddb","sitemap":"https://www.lakesideinn.net/en-gb/sitemap","contact":"https://www.lakesideinn.net/en-gb/contact","reviews":"https://www.lakesideinn.net/en-gb/reviews","dining":"https://www.lakesideinn.net/en-gb/dining","privacy_policy":"https://www.lakesideinn.net/en-gb/privacy-policy","attractions":"https://www.lakesideinn.net/en-gb/location","facilities":"https://www.lakesideinn.net/en-gb/amenities","rooms":"https://www.lakesideinn.net/en-gb/accommodations","search":"https://reservation.booking.expert/en-gb/search?h=hhecddb","photos":"https://www.lakesideinn.net/en-gb/photos","book":"https://reservation.booking.expert/en-gb/book?h=hhecddb","home":"https://www.lakesideinn.net/en-gb","verify":"https://reservation.booking.expert/en-gb/verify?h=hhecddb"};
     B.env.guest_ip = "208.185.173.211";
     B.env.ip_country = "us";
     B.env.visitor_country = "us";
-    B.env.page_type = "index";
-    B.env.error_config = {"service_unavailable":{"code":503,"type":"system","desc":"Service Unavailable"},"token_invalid":{"type":"user","code":2001,"desc":"Provided token is invalid."},"unauthorized":{"code":401,"type":"user","desc":"HTTP 401 - Unauthorized"},"invalid_parameter_combination":{"desc":"Invalid parameter combination.","code":1006,"type":"user"},"AUTH_STATUS_2FA_NO_APP_SUPPORT_FOR_THE_FEATURE":{"desc":"AUTH_STATUS_2FA_NO_APP_SUPPORT_FOR_THE_FEATURE","code":3035,"type":"user"},"FACEBOOK_USER_DIDNT_ALLOW_EMAIL":{"type":"user","code":3027,"desc":"FACEBOOK_USER_DIDNT_ALLOW_EMAIL"},"AUTH_STATUS_SN_SIGNIN_NEEDS_PASSWORD":{"type":"user","code":3003,"desc":"AUTH_STATUS_SN_SIGNIN_NEEDS_PASSWORD"},"price_mismatch_increase_process_booking":{"desc":"Difference between asked and available incremental prices. The price increased.","type":"user","code":1200},"payment_error_insufficient_funds":{"desc":"Insufficient funds","code":2010,"type":"user"},"affiliate_not_found":{"desc":"Affiliate not found.","code":1119,"type":"user"},"AUTH_STATUS_EXPIRED":{"desc":"AUTH_STATUS_EXPIRED","code":3001,"type":"user"},"AUTH_STATUS_NO_PASSWORD":{"code":3008,"type":"user","desc":"AUTH_STATUS_NO_PASSWORD"},"function_not_allowed":{"type":"user","code":1010,"desc":"Function not allowed."},"AUTH_STATUS_TOKEN_ERROR":{"type":"user","code":3011,"desc":"AUTH_STATUS_TOKEN_ERROR"},"FACEBOOK_AUTHENTICATE":{"code":3023,"type":"user","desc":"FACEBOOK_AUTHENTICATE"},"price_mismatch_decrease_process_booking":{"desc":"Difference between asked and available incremental prices. The price decreased.","type":"user","code":1201},"AUTH_STATUS_NO_USERNAME":{"desc":"AUTH_STATUS_NO_USERNAME","type":"user","code":3007},"forbidden":{"desc":"HTTP 403 - Forbidden","code":403,"type":"user"},"arrival_date_in_past":{"type":"user","code":1124,"desc":"Arrival date must be today or after today"},"not_free_cancellation":{"type":"user","code":1127,"desc":"The requestor needed a reservation that could be cancelled for free, but the found blocks cannot"},"booking_is_being_processed":{"desc":"This booking is being processed in another request, ignoring this request.","type":"user","code":2009},"too_many_requests_":{"type":"user","code":429,"desc":"Too many requests - Throttling"},"FACEBOOK_ERROR_WITH_CUSTOM_MSG":{"code":3025,"type":"user","desc":"FACEBOOK_ERROR_WITH_CUSTOM_MSG"},"booking_looks_suspicious":{"desc":"Book process failed.","code":2006,"type":"user"},"AUTH_STATUS_2FA_INVALID_AUTHORIZATION_TOKEN":{"desc":"AUTH_STATUS_2FA_INVALID_AUTHORIZATION_TOKEN","type":"user","code":3033},"I_MEAN_AUTH_STATUS_USER_UNKNOWN":{"code":3028,"type":"user","desc":"AUTH_STATUS_USER_UNKNOWN"},"no_rpo_availability":{"type":"user","code":1107,"desc":"There is no room available during the specified period."},"too_many_requests":{"desc":"Too many requests per minute. Please don't use this function heavily (i.e. only for testing) during 8-23 GMT.","type":"user","code":1007},"FACEBOOK_ERROR_UNKNOWN":{"desc":"FACEBOOK_ERROR_UNKNOWN","type":"user","code":3021},"ALREADY_SUBMITTED":{"desc":"ALREADY_SUBMITTED","code":3026,"type":"user"},"not_implemented":{"desc":"Not Implemented","code":501,"type":"system"},"filtered_av_updates":{"type":"user","code":444,"desc":"AV updates - some filtered"},"FACEBOOK_ALREADY_CONNECTED_TO_DIFF_ACCOUNT":{"desc":"FACEBOOK_AUTHENTICATE","type":"user","code":3024},"internal_error":{"type":"system","code":1001,"desc":"Internal error (with a unique ID if the error is logged: in those cases Bookings may be contacted to trace the error)."},"gone":{"type":"user","code":410,"desc":"HTTP 410 - Gone"},"invalid_guest_qty":{"code":1122,"type":"user","desc":"Guest_qty is not between 1 and it's maximum."},"AUTH_STATUS_EMAIL_UNCONFIRMED":{"type":"user","code":3010,"desc":"AUTH_STATUS_EMAIL_UNCONFIRMED"},"AUTH_STATUS_USER_UNKNOWN":{"code":3004,"type":"user","desc":"AUTH_STATUS_FAILED"},"AUTH_STATUS_2FA_WRONG_ANSWER_TO_SECURITY_QUESTION":{"desc":"AUTH_STATUS_2FA_WRONG_ANSWER_TO_SECURITY_QUESTION","code":3034,"type":"user"},"booking_already_processed":{"desc":"This booking has already been processed and a cached result will be returned.","type":"user","code":2005},"rpo_not_found":{"type":"user","code":1105,"desc":"Room not found."},"AUTH_STATUS_FAILED":{"code":3004,"type":"user","desc":"AUTH_STATUS_FAILED"},"internal_server_error":{"type":"system","code":500,"desc":"Internal Server Error"},"missing_parameters":{"desc":"One or more required input parameters are missing.","code":1002,"type":"user"},"not_found":{"type":"user","code":1004,"desc":"Object not found."},"AUTH_STATUS_AUTHENTICATED":{"type":"user","code":3002,"desc":"AUTH_STATUS_AUTHENTICATED"},"possible_hijack":{"desc":"A request is blocked because it's considered a hijack for a booking","type":"user","code":1111},"AUTH_STATUS_USER_UNCONFIRMED":{"desc":"AUTH_STATUS_USER_UNCONFIRMED","code":3009,"type":"user"},"rpo_not_in_hotel":{"code":1106,"type":"user","desc":"Room is not part of the hotel."},"unknown_link_booking_error":{"desc":"Unknown error while linking booking.","type":"user","code":2003},"WECHAT_ERROR_WITH_CUSTOM_MSG":{"code":3029,"type":"user","desc":"WECHAT_ERROR_WITH_CUSTOM_MSG"},"affiliate_closed":{"desc":"Affiliate is closed.","type":"user","code":1120},"hotel_is_closed":{"desc":"The specified hotel is not in service.","type":"user","code":1011},"AUTH_STATUS_LOCKED":{"type":"user","code":3005,"desc":"AUTH_STATUS_LOCKED"},"item_not_available":{"code":2011,"type":"user","desc":"Item not available."},"too_many_parallel_requests":{"desc":"Too many parallel requests. Please only call 1 instance of this function in parallel during 8-23 GMT or 3 instances in parallel during 23-8 GMT.","code":1008,"type":"user"},"duplicated_request_dist":{"code":1020,"type":"user","desc":"Duplicated distribution request (magic, not client facing)"},"min_length_of_stay_not_fulfilled":{"type":"user","code":1126,"desc":"Minimum length of stay for the requested hotel(s) was not fulfilled"},"invalid_input_format":{"code":1003,"type":"user","desc":"One or more input parameters have an invalid format."},"cc_validation_error":{"type":"user","code":1013,"desc":"Credit card validation error"},"incorrect_parameters":{"code":1009,"type":"user","desc":"One or more input parameters have an incorrect value."},"filtered_av_updates_errors":{"desc":"AV updates - errors and filtered","code":445,"type":"user"},"AUTH_STATUS_NONE":{"desc":"AUTH_STATUS_NONE","code":3000,"type":"user"},"payment_error_redirect_shopper":{"desc":"3Ds: redirect shopper","type":"user","code":2101},"bad_request":{"desc":"HTTP 400 - Bad Request","type":"user","code":400},"redeem_coupon_fail":{"desc":"China Loyalty Program:instant redemption coupon feature, redeem coupon failed.","type":"user","code":2012},"PASSWORD_EQ_USERNAME":{"desc":"Password is equal to username","type":"user","code":3031},"payment_error_generic":{"code":2007,"type":"user","desc":"There was a problem processing payment"},"non_pci_call_in_pci":{"desc":"This call can not be made to secure server. Please remove 'secure-' prefix from domain name.","code":1015,"type":"user"},"cancelled_booking":{"desc":"The given booking is cancelled.","type":"user","code":1123},"SHORT_PASSWORD":{"desc":"Password is less then 8 characters","type":"user","code":3030},"ssl_required":{"type":"user","code":1005,"desc":"HTTPS (SSL) connection required for using this procedure."},"PASSWORD_RESET_FAILED":{"desc":"Password reset failed","type":"user","code":3020},"AUTH_STATUS_2FA_CHALLENGE_FAILED_INVALID_PIN":{"code":3032,"type":"user","desc":"AUTH_STATUS_2FA_CHALLENGE_FAILED_INVALID_PIN"},"pci_call_outside_pci":{"desc":"This call requires connection to secure server. Please add 'secure-' prefix to domain name.","code":1014,"type":"user"},"FACEBOOK_ACCOUNTS_MUST_BE_MERGED":{"type":"user","code":3022,"desc":"FACEBOOK_ACCOUNTS_MUST_BE_MERGED"},"xml_parse_error":{"desc":"XML parse error","type":"user","code":1012},"payment_error_not_supported_by_hotel":{"code":2102,"type":"user","desc":"Hotel does not support requested payment method"},"ofac_second_match":{"desc":"OFAC second match by date of birthday.","type":"user","code":1300},"no_bn_or_pincode":{"desc":"Missing booknumber or pincode.","code":2002,"type":"user"},"captcha_required":{"code":1142,"type":"user","desc":"User must complete captcha challenge before retrying request."},"unknown_error_code":{"type":"system","code":65535,"desc":"Unknown error code"},"num_rooms_bigger_than_allowed":{"type":"user","code":1125,"desc":"Number of rooms is bigger than the maximum allowed"},"booking_already_linked":{"desc":"This booking has already been linked to another user account.","type":"user","code":2004},"duplicated_request_supply":{"type":"user","code":420,"desc":"Duplicated supply request (magic, not client facing)"}};
-    B.env.constants = {"PolicyTypes":{"GROUPS":"POLICY_HOTEL_GROUPS","PARKING":"POLICY_HOTEL_PARKING","CANCELLATION":"POLICY_CANCELLATION","INTERNET":"POLICY_HOTEL_INTERNET","PREPAYMENT":"POLICY_PREPAY","CHILDREN":"POLICY_CHILDREN","PETS":"POLICY_HOTEL_PETS"},"ChoiceRatePlanTypes":{"AAA":{"S3A":"S3A"},"STATIC_PACKAGES":{"PKF30":"PKF30","PKF21":"PKF21","PKF7":"PKF7","PKF10":"PKF10","PKF14":"PKF14","PKF3":"PKF3"},"SENIOR_CITIZEN":{"SSC":"SSC"},"BASE":{"PKBB":"PKBB","BASE":"BASE","SAPR2":"SAPR2","SAPR1":"SAPR1"},"GOV_MILITARY":{"SGM":"SGM"},"PROMO_CODE":{"SP30M6":"SP30M6","SP10M5":"SP10M5","SP15M3":"SP15M3","SP15M4":"SP15M4","SP35M5":"SP35M5","SP10M2":"SP10M2","SP30M5":"SP30M5","SP20M6":"SP20M6","SP20M4":"SP20M4","SP25M4":"SP25M4","SP15M2":"SP15M2","SP10M1":"SP10M1","SP20M3":"SP20M3","SP25M5":"SP25M5","SP30M3":"SP30M3","SP30M4":"SP30M4","SP15M7":"SP15M7","SP20M9":"SP20M9","SP25M3":"SP25M3","SP35M4":"SP35M4"}},"SocialLinkTypes":{"YELP":"yelp","TWITTER":"twitter","TUMBLR":"tumblr","FACEBOOK":"facebook","INSTAGRAM":"instagram","GOOGLEPLUS":"google+","TRIPADVISOR":"tripadvisor","WEIBO":"weibo","YOUTUBE":"youtube","PINTEREST":"pinterest"},"SmartAVClient":{"SEVEN_DAYS_AGO":-7,"AVAILABILITY_DAYS":22,"LENGTH_OF_STAY":1},"AlbumTypes":{"ARTICLE_SECTION":"articlesection","GALLERY":"gallery","DINING":"dining","ARTICLE_MAIN":"articlemain","CUSTOM_ROOM":"custom_room","HOMEPAGE":"homepage"},"PageTypes":{"EMAIL_CANCELLATION":"email/cancellation","ROOM":"room","CUSTOM_LINK":"custom_link","PACKAGE":"package","EMAIL_CHOICE_CANCELLATION":"email/choice_cancellation","ROOMS":"rooms","EMAIL_CHOICE_CONFIRMATION":"email/choice_confirmation","CONTACT":"contact","EMAIL_CONFIRMATION":"email/confirmation","FACILITIES":"facilities","BOOK":"book","SITEMAP":"sitemap","BACKUP":"backup","ARTICLE":"article","DINING":"dining","PACKAGES":"packages","INDEX":"index","HOME":"home","ROOM_DETAIL":"roomdetail","PHOTOS":"photos","CUSTOM_ROOM":"custom_room","TOOLS":"_","INSTRUCTIONS_BB":"instructions/booking-button","PROMOTIONS":"promotions","EMAIL_CONTACT":"email/contact","REVIEWS":"reviews","ATTRACTIONS":"attractions","PRIVACY_POLICY":"privacy_policy","PAGE":"page","COOKIE_POLICY":"cookie_policy","ROOM_OVERVIEW":"roomoverview","CONFIRM":"confirm","EMAIL_BB_CODE_INSTRUCTIONS":"email/booking-button-code-instructions","VERIFY":"verify","RESERVATION":"reservation","SEARCH":"search","HOMEPAGE":"homepage"},"RefundableTypes":{"FREE_CANCELLATION":"free_cancellation","SPECIAL_CONDITIONS":"special_conditions","NON_REFUNDABLE":"non_refundable","SPECIAL_CONDITION":"special_condition"},"WidgetTypes":{"FEATURED_ARTICLE":"FeaturedArticle","FACILITIES":"Facilities","SITEMAP":"DEPRECATED","CUSTOM_CONTACT_FORM":"CustomContactForm","LEGACY":"DEPRECATED","CHOICE_REVIEW_WIDGET":"CHOICE_REVIEW_WIDGET","LOCATION":"Location","CONTACT":"DEPRECATED","REVIEWS":"Reviews","EMBED":"Embed","EMBEDWIDGET":"DEPRECATED","ROOM":"Room","VIDEO":"Video","QUICKRESERVATION":"DEPRECATED"},"ChoiceRatePlanStrings":{"SP15M7":"bks_be_choice_promo_seven_nights_fifteen_percent_off","SP20M9":"bks_be_choice_promo_nine_nights_twenty_percent_off","PKF21":"bks_be_choice_package_twentyone_day_park_fly","STATIC_PACKAGES":"bks_be_choice_packages","SP25M5":"bks_be_choice_promo_five_nights_twenty_five_percent_off","BASE":"bks_cms_choice_hotels_best_available","SSC":"bks_cms_choice_hotels_aarp_members_60_plus","GOV_MILITARY":"bks_be_rate_special_government_military_rate","SP20M3":"bks_be_choice_promo_three_nights_twenty_percent_off","SP10M1":"bks_be_choice_promo_one_night_ten_percent_off","PKF14":"bks_be_choice_package_fourteen_day_park_fly","PROMO_CODE":"bks_be_choice_promotional_code_filter","SP15M2":"bks_be_choice_promo_two_nights_fifteen_percent_off","PKF3":"bks_be_choice_package_three_day_park_fly","SP20M6":"bks_be_choice_promo_six_nights_twenty_percent_off","SP20M4":"bks_be_choice_promo_four_nights_twenty_percent_off","SP25M4":"bks_be_choice_promo_four_nights_twenty_five_percent_off","PKF10":"bks_be_choice_package_ten_day_park_fly","ADVANCE_PURCHASE":"bks_cms_choice_hotels_advance_purchase_rate","SENIOR_CITIZEN":"bks_be_rate_special_senior_rate","PKF30":"bks_be_choice_package_thirty_day_park_fly","SP30M6":"bks_be_choice_promo_six_nights_thirty_percent_off","S3A":"bks_cms_choice_hotels_aaa_caa_members_only","SP15M3":"bks_be_choice_promo_three_nights_fifteen_percent_off","SP10M5":"bks_be_choice_promo_five_nights_ten_percent_off","SP25M3":"bks_be_choice_promo_three_nights_twenty_five_percent_off","SP35M4":"bks_be_choice_promo_four_nights_thirty_five_percent_off","SP30M3":"bks_be_choice_promo_three_nights_thirty_percent_off","RACK":"bks_cms_choice_hotels_best_available","SP30M4":"bks_be_choice_promo_four_nights_thirty_percent_off","SAPR1":"bks_cms_choice_hotels_advance_purchase_rate","SAPR2":"bks_cms_choice_hotels_advance_purchase_rate","PKBB":"bks_be_choice_package_breakfast","PKF7":"bks_be_choice_package_seven_day_park_fly","AAA":"bks_be_rate_special_aaa_caa","PARKING_FLY":"bks_be_choice_packages","SP35M5":"bks_be_choice_promo_five_nights_thirty_five_percent_off","SGM":"bks_cms_choice_hotels_special_rates_gov_military_travellers","SP10M2":"bks_be_choice_promo_two_nights_ten_percent_off","SP30M5":"bks_be_choice_promo_five_nights_thirty_percent_off","SP15M4":"bks_be_choice_promo_four_nights_fifteen_percent_off"},"PaymentMethod":{"FREE":"free","CASH_ONLY_PAYMENT_METHOD":18,"MAX_CARDS_TO_DISPLAY":3},"CustomContactFormFieldTypes":{"EMAIL":5,"MESSAGE":12,"GUESTS":11,"BOOKED_ROOM":13,"PHONE":6,"TIME_RANGE":10,"FIRST_NAME":3,"LAST_NAME":4,"DATE_RANGE":8,"CATEGORY":0,"RECIPIENT":2,"TIME":9,"DATE":7,"TITLE":1},"PhotoClass":{"BKS_ARTICLE_HERO":57,"BKS_PDF_DOCUMENT":99,"BKS_CUSTOM_ROOM":68,"BKS_FAVICON":59,"BKS_LOGO_AWARDS":54,"BKS_GALLERY":60,"BKS_BACKGROUND":55,"BKS_ARTICLE_BODY":58,"BKS_HOMEPAGE_HERO":56},"RoomSource":{"CUSTOM":"custom","BOOKING":"booking","BOOKING_PLUS":"booking_plus"},"Layouts":{"BOOKING_SUITE":"booking_suite","CHOICE_EMAIL_BASE":"choice_email_base","EMAIL_BASE":"email_base","EMPTY":"empty","WEBSITES":"websites","BOOKING_ENGINE":"bookingengine"},"SegmentTypes":{"SLIDESHOW":"slideshow","PARAGRAPH":"paragraph","IMAGE":"image","CUSTOM_CONTACT_FORM":"custom_contact_form","SECTION_HEADER":"section_header","PARAGRAPH_HTML":"paragraph_html","NONEDITABLE":"noneditable","VIDEO":"video","EMBED":"embed","HEADER":"header"},"BookingEngineType":{"CHOICE":"CHOICE","BOOKING":"BOOKING","THIRD_PARTY_URL":"THIRD_PARTY_URL"},"Theme":{"AVENUE":"theme_Avenue","FRAME":"theme_Frame","CREST":"theme_Crest","FOCUS":"theme_Focus","SUMMIT":"theme_Summit","EDGE":"theme_Edge","AURA":"theme_Aura","ASCENT":"theme_Ascent"},"GTM":{"WF_GUEST_TRAFFIC":"GTM-PBSCT4T","CHANNEL":"booking"},"FacilityTypeIcons":{"7":"food","20":"door_open","25":"family","9":"tree","-2":"pawprint","10":"skiing","1":"info_sign","27":"briefcase","24":"group","3":"concierge","17":"bed","2":"golf","6":"screen","18":"expand","28":"shopping_bag","23":"frontdesk","4":"bed","-5":"coffee","5":"bath","13":"garden","14":"mountains","22":"bus_front","26":"washer","29":"snowflake","19":"disabled","12":"oven","15":"couch","8":"concierge","16":"parking_sign","-7":"clothes","11":"wifi","21":"pool"},"ComponentTypes":{"SLIDESHOW_WITH_TEXT":"slideshow_with_text","CONTACT_FORM":"contact_form","VIDEO":"video","HEADLINE":"headline","TEXT":"text","CODE":"code","SLIDESHOW":"slideshow"}};
+    B.env.page_type = "room";
+    B.env.error_config = {"cc_validation_error":{"desc":"Credit card validation error","type":"user","code":1013},"AUTH_STATUS_2FA_NO_APP_SUPPORT_FOR_THE_FEATURE":{"desc":"AUTH_STATUS_2FA_NO_APP_SUPPORT_FOR_THE_FEATURE","code":3035,"type":"user"},"AUTH_STATUS_NONE":{"desc":"AUTH_STATUS_NONE","code":3000,"type":"user"},"bad_request":{"desc":"HTTP 400 - Bad Request","type":"user","code":400},"PASSWORD_EQ_USERNAME":{"code":3031,"type":"user","desc":"Password is equal to username"},"too_many_parallel_requests":{"code":1008,"type":"user","desc":"Too many parallel requests. Please only call 1 instance of this function in parallel during 8-23 GMT or 3 instances in parallel during 23-8 GMT."},"too_many_requests_":{"desc":"Too many requests - Throttling","type":"user","code":429},"AUTH_STATUS_SN_SIGNIN_NEEDS_PASSWORD":{"type":"user","code":3003,"desc":"AUTH_STATUS_SN_SIGNIN_NEEDS_PASSWORD"},"internal_server_error":{"code":500,"type":"system","desc":"Internal Server Error"},"forbidden":{"desc":"HTTP 403 - Forbidden","type":"user","code":403},"function_not_allowed":{"desc":"Function not allowed.","code":1010,"type":"user"},"I_MEAN_AUTH_STATUS_USER_UNKNOWN":{"code":3028,"type":"user","desc":"AUTH_STATUS_USER_UNKNOWN"},"pci_call_outside_pci":{"code":1014,"type":"user","desc":"This call requires connection to secure server. Please add 'secure-' prefix to domain name."},"price_mismatch_increase_process_booking":{"code":1200,"type":"user","desc":"Difference between asked and available incremental prices. The price increased."},"AUTH_STATUS_LOCKED":{"desc":"AUTH_STATUS_LOCKED","type":"user","code":3005},"AUTH_STATUS_2FA_WRONG_ANSWER_TO_SECURITY_QUESTION":{"desc":"AUTH_STATUS_2FA_WRONG_ANSWER_TO_SECURITY_QUESTION","code":3034,"type":"user"},"booking_is_being_processed":{"desc":"This booking is being processed in another request, ignoring this request.","code":2009,"type":"user"},"price_mismatch_decrease_process_booking":{"code":1201,"type":"user","desc":"Difference between asked and available incremental prices. The price decreased."},"payment_error_insufficient_funds":{"type":"user","code":2010,"desc":"Insufficient funds"},"WECHAT_ERROR_WITH_CUSTOM_MSG":{"desc":"WECHAT_ERROR_WITH_CUSTOM_MSG","code":3029,"type":"user"},"unknown_error_code":{"code":65535,"type":"system","desc":"Unknown error code"},"PASSWORD_RESET_FAILED":{"desc":"Password reset failed","code":3020,"type":"user"},"AUTH_STATUS_NO_USERNAME":{"type":"user","code":3007,"desc":"AUTH_STATUS_NO_USERNAME"},"AUTH_STATUS_USER_UNCONFIRMED":{"type":"user","code":3009,"desc":"AUTH_STATUS_USER_UNCONFIRMED"},"payment_error_not_supported_by_hotel":{"desc":"Hotel does not support requested payment method","type":"user","code":2102},"ofac_second_match":{"desc":"OFAC second match by date of birthday.","code":1300,"type":"user"},"ssl_required":{"code":1005,"type":"user","desc":"HTTPS (SSL) connection required for using this procedure."},"FACEBOOK_ERROR_WITH_CUSTOM_MSG":{"desc":"FACEBOOK_ERROR_WITH_CUSTOM_MSG","code":3025,"type":"user"},"rpo_not_found":{"desc":"Room not found.","code":1105,"type":"user"},"missing_parameters":{"desc":"One or more required input parameters are missing.","code":1002,"type":"user"},"redeem_coupon_fail":{"desc":"China Loyalty Program:instant redemption coupon feature, redeem coupon failed.","type":"user","code":2012},"AUTH_STATUS_USER_UNKNOWN":{"desc":"AUTH_STATUS_FAILED","type":"user","code":3004},"service_unavailable":{"code":503,"type":"system","desc":"Service Unavailable"},"too_many_requests":{"desc":"Too many requests per minute. Please don't use this function heavily (i.e. only for testing) during 8-23 GMT.","type":"user","code":1007},"invalid_parameter_combination":{"desc":"Invalid parameter combination.","code":1006,"type":"user"},"xml_parse_error":{"desc":"XML parse error","type":"user","code":1012},"captcha_required":{"code":1142,"type":"user","desc":"User must complete captcha challenge before retrying request."},"incorrect_parameters":{"desc":"One or more input parameters have an incorrect value.","code":1009,"type":"user"},"internal_error":{"desc":"Internal error (with a unique ID if the error is logged: in those cases Bookings may be contacted to trace the error).","type":"system","code":1001},"filtered_av_updates":{"type":"user","code":444,"desc":"AV updates - some filtered"},"affiliate_closed":{"desc":"Affiliate is closed.","code":1120,"type":"user"},"AUTH_STATUS_2FA_CHALLENGE_FAILED_INVALID_PIN":{"desc":"AUTH_STATUS_2FA_CHALLENGE_FAILED_INVALID_PIN","code":3032,"type":"user"},"FACEBOOK_ALREADY_CONNECTED_TO_DIFF_ACCOUNT":{"desc":"FACEBOOK_AUTHENTICATE","code":3024,"type":"user"},"payment_error_generic":{"code":2007,"type":"user","desc":"There was a problem processing payment"},"FACEBOOK_AUTHENTICATE":{"code":3023,"type":"user","desc":"FACEBOOK_AUTHENTICATE"},"AUTH_STATUS_AUTHENTICATED":{"desc":"AUTH_STATUS_AUTHENTICATED","type":"user","code":3002},"gone":{"type":"user","code":410,"desc":"HTTP 410 - Gone"},"min_length_of_stay_not_fulfilled":{"desc":"Minimum length of stay for the requested hotel(s) was not fulfilled","code":1126,"type":"user"},"invalid_input_format":{"desc":"One or more input parameters have an invalid format.","code":1003,"type":"user"},"invalid_guest_qty":{"desc":"Guest_qty is not between 1 and it's maximum.","type":"user","code":1122},"AUTH_STATUS_TOKEN_ERROR":{"desc":"AUTH_STATUS_TOKEN_ERROR","type":"user","code":3011},"not_implemented":{"code":501,"type":"system","desc":"Not Implemented"},"unauthorized":{"desc":"HTTP 401 - Unauthorized","code":401,"type":"user"},"hotel_is_closed":{"desc":"The specified hotel is not in service.","type":"user","code":1011},"booking_looks_suspicious":{"code":2006,"type":"user","desc":"Book process failed."},"possible_hijack":{"code":1111,"type":"user","desc":"A request is blocked because it's considered a hijack for a booking"},"booking_already_processed":{"desc":"This booking has already been processed and a cached result will be returned.","type":"user","code":2005},"AUTH_STATUS_EXPIRED":{"code":3001,"type":"user","desc":"AUTH_STATUS_EXPIRED"},"unknown_link_booking_error":{"code":2003,"type":"user","desc":"Unknown error while linking booking."},"FACEBOOK_USER_DIDNT_ALLOW_EMAIL":{"type":"user","code":3027,"desc":"FACEBOOK_USER_DIDNT_ALLOW_EMAIL"},"not_free_cancellation":{"type":"user","code":1127,"desc":"The requestor needed a reservation that could be cancelled for free, but the found blocks cannot"},"filtered_av_updates_errors":{"code":445,"type":"user","desc":"AV updates - errors and filtered"},"num_rooms_bigger_than_allowed":{"desc":"Number of rooms is bigger than the maximum allowed","code":1125,"type":"user"},"ALREADY_SUBMITTED":{"code":3026,"type":"user","desc":"ALREADY_SUBMITTED"},"payment_error_redirect_shopper":{"code":2101,"type":"user","desc":"3Ds: redirect shopper"},"AUTH_STATUS_2FA_INVALID_AUTHORIZATION_TOKEN":{"desc":"AUTH_STATUS_2FA_INVALID_AUTHORIZATION_TOKEN","type":"user","code":3033},"FACEBOOK_ERROR_UNKNOWN":{"desc":"FACEBOOK_ERROR_UNKNOWN","type":"user","code":3021},"token_invalid":{"code":2001,"type":"user","desc":"Provided token is invalid."},"duplicated_request_supply":{"desc":"Duplicated supply request (magic, not client facing)","code":420,"type":"user"},"arrival_date_in_past":{"type":"user","code":1124,"desc":"Arrival date must be today or after today"},"SHORT_PASSWORD":{"desc":"Password is less then 8 characters","code":3030,"type":"user"},"not_found":{"desc":"Object not found.","code":1004,"type":"user"},"item_not_available":{"desc":"Item not available.","code":2011,"type":"user"},"rpo_not_in_hotel":{"desc":"Room is not part of the hotel.","code":1106,"type":"user"},"AUTH_STATUS_NO_PASSWORD":{"code":3008,"type":"user","desc":"AUTH_STATUS_NO_PASSWORD"},"cancelled_booking":{"desc":"The given booking is cancelled.","type":"user","code":1123},"AUTH_STATUS_FAILED":{"type":"user","code":3004,"desc":"AUTH_STATUS_FAILED"},"FACEBOOK_ACCOUNTS_MUST_BE_MERGED":{"desc":"FACEBOOK_ACCOUNTS_MUST_BE_MERGED","type":"user","code":3022},"duplicated_request_dist":{"desc":"Duplicated distribution request (magic, not client facing)","type":"user","code":1020},"non_pci_call_in_pci":{"desc":"This call can not be made to secure server. Please remove 'secure-' prefix from domain name.","type":"user","code":1015},"AUTH_STATUS_EMAIL_UNCONFIRMED":{"type":"user","code":3010,"desc":"AUTH_STATUS_EMAIL_UNCONFIRMED"},"no_bn_or_pincode":{"code":2002,"type":"user","desc":"Missing booknumber or pincode."},"no_rpo_availability":{"desc":"There is no room available during the specified period.","type":"user","code":1107},"affiliate_not_found":{"code":1119,"type":"user","desc":"Affiliate not found."},"booking_already_linked":{"desc":"This booking has already been linked to another user account.","code":2004,"type":"user"}};
+    B.env.constants = {"PolicyTypes":{"INTERNET":"POLICY_HOTEL_INTERNET","PREPAYMENT":"POLICY_PREPAY","GROUPS":"POLICY_HOTEL_GROUPS","CANCELLATION":"POLICY_CANCELLATION","CHILDREN":"POLICY_CHILDREN","PARKING":"POLICY_HOTEL_PARKING","PETS":"POLICY_HOTEL_PETS"},"PhotoClass":{"BKS_GALLERY":60,"BKS_PDF_DOCUMENT":99,"BKS_LOGO_AWARDS":54,"BKS_CUSTOM_ROOM":68,"BKS_BACKGROUND":55,"BKS_ARTICLE_HERO":57,"BKS_HOMEPAGE_HERO":56,"BKS_FAVICON":59,"BKS_ARTICLE_BODY":58},"ChoiceRatePlanTypes":{"GOV_MILITARY":{"SGM":"SGM"},"PROMO_CODE":{"SP10M5":"SP10M5","SP10M1":"SP10M1","SP15M2":"SP15M2","SP25M4":"SP25M4","SP30M6":"SP30M6","SP10M2":"SP10M2","SP35M5":"SP35M5","SP30M3":"SP30M3","SP35M4":"SP35M4","SP20M6":"SP20M6","SP15M4":"SP15M4","SP15M7":"SP15M7","SP15M3":"SP15M3","SP20M3":"SP20M3","SP30M5":"SP30M5","SP25M3":"SP25M3","SP25M5":"SP25M5","SP30M4":"SP30M4","SP20M9":"SP20M9","SP20M4":"SP20M4"},"AAA":{"S3A":"S3A"},"SENIOR_CITIZEN":{"SSC":"SSC"},"BASE":{"BASE":"BASE","PKBB":"PKBB","SAPR2":"SAPR2","SAPR1":"SAPR1"},"STATIC_PACKAGES":{"PKF21":"PKF21","PKF3":"PKF3","PKF10":"PKF10","PKF7":"PKF7","PKF30":"PKF30","PKF14":"PKF14"}},"ChoiceRatePlanStrings":{"SP15M4":"bks_be_choice_promo_four_nights_fifteen_percent_off","SP35M4":"bks_be_choice_promo_four_nights_thirty_five_percent_off","SP30M3":"bks_be_choice_promo_three_nights_thirty_percent_off","PROMO_CODE":"bks_be_choice_promotional_code_filter","SP30M6":"bks_be_choice_promo_six_nights_thirty_percent_off","SP10M2":"bks_be_choice_promo_two_nights_ten_percent_off","ADVANCE_PURCHASE":"bks_cms_choice_hotels_advance_purchase_rate","SP10M1":"bks_be_choice_promo_one_night_ten_percent_off","PKF3":"bks_be_choice_package_three_day_park_fly","PKF10":"bks_be_choice_package_ten_day_park_fly","AAA":"bks_be_rate_special_aaa_caa","SP20M4":"bks_be_choice_promo_four_nights_twenty_percent_off","BASE":"bks_cms_choice_hotels_best_available","SP30M4":"bks_be_choice_promo_four_nights_thirty_percent_off","SAPR2":"bks_cms_choice_hotels_advance_purchase_rate","SENIOR_CITIZEN":"bks_be_rate_special_senior_rate","SP20M3":"bks_be_choice_promo_three_nights_twenty_percent_off","PKBB":"bks_be_choice_package_breakfast","PKF14":"bks_be_choice_package_fourteen_day_park_fly","S3A":"bks_cms_choice_hotels_aaa_caa_members_only","SSC":"bks_cms_choice_hotels_aarp_members_60_plus","SP20M6":"bks_be_choice_promo_six_nights_twenty_percent_off","GOV_MILITARY":"bks_be_rate_special_government_military_rate","PARKING_FLY":"bks_be_choice_packages","PKF30":"bks_be_choice_package_thirty_day_park_fly","SAPR1":"bks_cms_choice_hotels_advance_purchase_rate","SP35M5":"bks_be_choice_promo_five_nights_thirty_five_percent_off","SGM":"bks_cms_choice_hotels_special_rates_gov_military_travellers","RACK":"bks_cms_choice_hotels_best_available","SP25M4":"bks_be_choice_promo_four_nights_twenty_five_percent_off","SP15M2":"bks_be_choice_promo_two_nights_fifteen_percent_off","SP10M5":"bks_be_choice_promo_five_nights_ten_percent_off","SP20M9":"bks_be_choice_promo_nine_nights_twenty_percent_off","STATIC_PACKAGES":"bks_be_choice_packages","SP25M5":"bks_be_choice_promo_five_nights_twenty_five_percent_off","PKF21":"bks_be_choice_package_twentyone_day_park_fly","SP25M3":"bks_be_choice_promo_three_nights_twenty_five_percent_off","SP30M5":"bks_be_choice_promo_five_nights_thirty_percent_off","SP15M3":"bks_be_choice_promo_three_nights_fifteen_percent_off","SP15M7":"bks_be_choice_promo_seven_nights_fifteen_percent_off","PKF7":"bks_be_choice_package_seven_day_park_fly"},"ComponentTypes":{"SLIDESHOW":"slideshow","TEXT":"text","HEADLINE":"headline","VIDEO":"video","CONTACT_FORM":"contact_form","CODE":"code","SLIDESHOW_WITH_TEXT":"slideshow_with_text"},"RoomSource":{"BOOKING_PLUS":"booking_plus","CUSTOM":"custom","BOOKING":"booking"},"GTM":{"WF_GUEST_TRAFFIC":"GTM-PBSCT4T","CHANNEL":"booking"},"SegmentTypes":{"PARAGRAPH_HTML":"paragraph_html","NONEDITABLE":"noneditable","SLIDESHOW":"slideshow","EMBED":"embed","CUSTOM_CONTACT_FORM":"custom_contact_form","HEADER":"header","IMAGE":"image","PARAGRAPH":"paragraph","VIDEO":"video","SECTION_HEADER":"section_header"},"Theme":{"SUMMIT":"theme_Summit","FRAME":"theme_Frame","EDGE":"theme_Edge","FOCUS":"theme_Focus","AURA":"theme_Aura","CREST":"theme_Crest","AVENUE":"theme_Avenue","ASCENT":"theme_Ascent"},"WidgetTypes":{"LOCATION":"Location","CHOICE_REVIEW_WIDGET":"CHOICE_REVIEW_WIDGET","REVIEWS":"Reviews","EMBED":"Embed","LEGACY":"DEPRECATED","ROOM":"Room","EMBEDWIDGET":"DEPRECATED","CONTACT":"DEPRECATED","CUSTOM_CONTACT_FORM":"CustomContactForm","SITEMAP":"DEPRECATED","FEATURED_ARTICLE":"FeaturedArticle","VIDEO":"Video","QUICKRESERVATION":"DEPRECATED","FACILITIES":"Facilities"},"SocialLinkTypes":{"INSTAGRAM":"instagram","TUMBLR":"tumblr","GOOGLEPLUS":"google+","PINTEREST":"pinterest","FACEBOOK":"facebook","TWITTER":"twitter","YOUTUBE":"youtube","YELP":"yelp","WEIBO":"weibo","TRIPADVISOR":"tripadvisor"},"CustomContactFormFieldTypes":{"FIRST_NAME":3,"LAST_NAME":4,"DATE_RANGE":8,"RECIPIENT":2,"MESSAGE":12,"TIME_RANGE":10,"TIME":9,"TITLE":1,"EMAIL":5,"DATE":7,"CATEGORY":0,"PHONE":6,"GUESTS":11,"BOOKED_ROOM":13},"FacilityTypeIcons":{"-2":"pawprint","18":"expand","7":"food","23":"frontdesk","27":"briefcase","-5":"coffee","3":"concierge","28":"shopping_bag","16":"parking_sign","-7":"clothes","19":"disabled","12":"oven","21":"pool","6":"screen","25":"family","20":"door_open","2":"golf","10":"skiing","17":"bed","15":"couch","24":"group","5":"bath","1":"info_sign","9":"tree","11":"wifi","13":"garden","8":"concierge","22":"bus_front","4":"bed","14":"mountains","29":"snowflake","26":"washer"},"AlbumTypes":{"HOMEPAGE":"homepage","ARTICLE_MAIN":"articlemain","GALLERY":"gallery","ARTICLE_SECTION":"articlesection","DINING":"dining","CUSTOM_ROOM":"custom_room"},"Layouts":{"EMAIL_BASE":"email_base","WEBSITES":"websites","BOOKING_SUITE":"booking_suite","BOOKING_ENGINE":"bookingengine","EMPTY":"empty","CHOICE_EMAIL_BASE":"choice_email_base"},"SmartAVClient":{"AVAILABILITY_DAYS":22,"SEVEN_DAYS_AGO":-7,"LENGTH_OF_STAY":1},"BookingEngineType":{"THIRD_PARTY_URL":"THIRD_PARTY_URL","CHOICE":"CHOICE","BOOKING":"BOOKING"},"RefundableTypes":{"NON_REFUNDABLE":"non_refundable","SPECIAL_CONDITIONS":"special_conditions","FREE_CANCELLATION":"free_cancellation","SPECIAL_CONDITION":"special_condition"},"PageTypes":{"ARTICLE":"article","ATTRACTIONS":"attractions","EMAIL_CHOICE_CONFIRMATION":"email/choice_confirmation","PHOTOS":"photos","EMAIL_CANCELLATION":"email/cancellation","COOKIE_POLICY":"cookie_policy","EMAIL_CONTACT":"email/contact","PAGE":"page","EMAIL_CHOICE_CANCELLATION":"email/choice_cancellation","INSTRUCTIONS_BB":"instructions/booking-button","ROOM":"room","SEARCH":"search","CONTACT":"contact","BACKUP":"backup","DINING":"dining","FACILITIES":"facilities","TOOLS":"_","ROOM_OVERVIEW":"roomoverview","RESERVATION":"reservation","ROOMS":"rooms","PROMOTIONS":"promotions","CUSTOM_ROOM":"custom_room","REVIEWS":"reviews","INDEX":"index","SITEMAP":"sitemap","PACKAGE":"package","EMAIL_CONFIRMATION":"email/confirmation","PACKAGES":"packages","ROOM_DETAIL":"roomdetail","VERIFY":"verify","BOOK":"book","EMAIL_BB_CODE_INSTRUCTIONS":"email/booking-button-code-instructions","HOME":"home","CUSTOM_LINK":"custom_link","CONFIRM":"confirm","HOMEPAGE":"homepage","PRIVACY_POLICY":"privacy_policy"},"PaymentMethod":{"MAX_CARDS_TO_DISPLAY":3,"CASH_ONLY_PAYMENT_METHOD":18,"FREE":"free"}};
     B.env.static_hostnames = ["https://q-cf.bstatic.com","https://r-cf.bstatic.com"];
     B.env.static_images_hostnames = ["https://q-cf.bstatic.com","https://r-cf.bstatic.com"];
     B.env.static_file_suffix = "_cloudfront";
@@ -49,100 +49,100 @@
     B.env.is_internal_traffic = !!"";
     B.env.action_is_booking_engine = !!"";
     B.env.device_class_by_ua = "desktop";
-    B.env.privacy_and_consent = {"display_cookie_warning":0,"warning_rendered_cookie_name":"cws","warning_closed_cookie_name":"bks_wf_cws"};
+    B.env.privacy_and_consent = {"warning_rendered_cookie_name":"cws","display_cookie_warning":0,"warning_closed_cookie_name":"bks_wf_cws"};
     B.env.expose_iframe_api = "";
     B.env.new_rooms_table = !!"";
     B.env.full_visitor_id = null;
     B.env.be_full_visitor_id =  "";
-    B.env.webpage_languages =  [{"lang_href":"https://www.lakesideinn.net/de-de","lang_code":"de-de","lang_trans":"Deutsch","lang_seo":"https://www.lakesideinn.net/de-de"},{"lang_trans":"English","lang_seo":"https://www.lakesideinn.net/en-gb","lang_href":"https://www.lakesideinn.net/en-gb","lang_code":"en-gb"},{"lang_trans":"American English","lang_seo":"https://www.lakesideinn.net/en-us","lang_href":"https://www.lakesideinn.net/en-us","lang_code":"en-us"},{"lang_seo":"https://www.lakesideinn.net/ms-my","lang_trans":"Melayu","lang_code":"ms-my","lang_href":"https://www.lakesideinn.net/ms-my"}];
+    B.env.webpage_languages =  [{"lang_trans":"Deutsch","lang_href":"https://www.lakesideinn.net/de-de/accommodations/lodge-standard","lang_code":"de-de","lang_seo":"https://www.lakesideinn.net/de-de/accommodations/lodge-standard"},{"lang_trans":"English","lang_href":"https://www.lakesideinn.net/en-gb/accommodations/lodge-standard","lang_code":"en-gb","lang_seo":"https://www.lakesideinn.net/en-gb/accommodations/lodge-standard"},{"lang_seo":"https://www.lakesideinn.net/en-us/accommodations/lodge-standard","lang_code":"en-us","lang_href":"https://www.lakesideinn.net/en-us/accommodations/lodge-standard","lang_trans":"American English"},{"lang_code":"ms-my","lang_seo":"https://www.lakesideinn.net/ms-my/accommodations/lodge-standard","lang_trans":"Melayu","lang_href":"https://www.lakesideinn.net/ms-my/accommodations/lodge-standard"}];
     B.env.top_currencies =  "";
     B.env.all_currencies =  "";
 
-
+    
         B.env.b01 = 1;
+    
 
+    
 
+    B.jset =  {"t":{},"f":{},"r":{}};
 
-
-    B.jset =  {"t":{},"r":{},"f":{}};
-
-    B.data.hotel = {"booking_engine":2,"longitude":-86.4112753961563,"latitude":43.3626292556039,"hotel_checkout_from":"","hotel_flag_foreigner_tax_exemption":0,"hotel_checkin_until":"22:00","booking_engine_type":"THIRD_PARTY_URL","time_zone":"America/Detroit","hotel_checkout_until":"11:00","test_hotel":false,"migrated_to_pages_api":true,"hotel_id":1332477,"hotel_checkin_from":"15:00","social_links":[{"id":3073,"sort_id":2,"hidden":false,"url":"http://www.tripadvisor.com/Hotel_Review-g42821-d615097-Reviews-Buzz_sLakeside_Inn-Whitehall_Muskegon_County_Michigan.html","title":"TripAdvisor","is_hidden":false,"hotel_id":1332477},{"sort_id":5,"url":"https://www.facebook.com/BuzzsLakesideInn/","hidden":false,"title":"Facebook","is_hidden":false,"hotel_id":1332477,"id":3076},{"is_hidden":false,"hotel_id":1332477,"title":"Instagram","url":"https://www.instagram.com/buzzslakesideinn/","hidden":false,"sort_id":6,"id":3077}],"hotel_poi_zoom":15,"footer_menus":[{"target_blank":false,"current":"","action":"sitemap","url":"https://www.lakesideinn.net/en-gb/sitemap","title":"bks_cms_menu_sitemap","page_id":6683},{"url":"https://www.lakesideinn.net/en-gb/privacy-policy","action":"privacy_policy","title":"bks_cms_menu_privacy_policy","current":"","target_blank":false,"page_id":6678},{"action_id":12054,"page_id":68220,"target_blank":false,"current":"","title":"Reservation Policy","action":"article","url":"https://www.lakesideinn.net/en-gb/reservation-policy"},{"page_id":64227,"action_id":11172,"action":"article","url":"https://www.lakesideinn.net/en-gb/employment","title":"Employment","current":"","target_blank":false},{"title":"bks_cms_menu_cookie_policy","url":"https://www.lakesideinn.net/en-gb/cookie-policy","action":"cookie_policy","current":"","target_blank":false,"page_id":6679}],"name":"Buzz's Lakeside Inn","short_code":"hhecddb","default_communication_language":"xu","preferred_contacts":{"contact_type":"BKS_FAMILY_WEB","contact_person_id":19040634,"email":"info@buzzslakesideinn.com","telephone_1":"","name":""},"currency_code":"USD","sku":"WebDirectSubscription","webpage_languages":["de-de","en-gb","en-us","ms-my"],"primary_language":"xu","open_bookable":false,"primary_domain":"www.lakesideinn.net","affiliate_id":1241010,"branding_hash_name":"e7dd94db7cc3bee324044ac43c3ae3cf9078db6b","address_object":{"country":"United States","name":"Buzz's Lakeside Inn","in_city":"in Whitehall","cc1":"us","address":"5700 North Scenic Drive","city":"Whitehall","zip":"MI 49461"},"header_menus":[{"current":"","target_blank":false,"title":"bks_cms_menu_accommodations","url":"https://www.lakesideinn.net/en-gb/accommodations","action":"rooms","page_id":6662},{"page_id":64167,"action_id":11160,"title":"About Us","url":"https://www.lakesideinn.net/en-gb/about-us","action":"article","target_blank":false,"current":""},{"page_id":64166,"title":"bks_cms_menu_dining","action":"dining","url":"https://www.lakesideinn.net/en-gb/dining","target_blank":false,"current":""},{"page_id":64347,"action_id":11203,"action":"article","url":"https://www.lakesideinn.net/en-gb/weddings-events","title":"Weddings & Events","target_blank":false,"current":""},{"page_id":6677,"action":"photos","url":"https://www.lakesideinn.net/en-gb/photos","title":"bks_cms_menu_photos","current":"","target_blank":false},{"page_id":6684,"target_blank":false,"current":"","title":"bks_cms_menu_location","url":"https://www.lakesideinn.net/en-gb/location","action":"attractions"},{"current":"","target_blank":false,"title":"bks_cms_menu_reviews","action":"reviews","url":"https://www.lakesideinn.net/en-gb/reviews","page_id":6681},{"url":"https://www.lakesideinn.net/en-gb/amenities","action":"facilities","title":"bks_cms_menu_amenities","current":"","target_blank":false,"page_id":6682},{"page_id":6680,"title":"bks_cms_menu_contact","action":"contact","url":"https://www.lakesideinn.net/en-gb/contact","target_blank":false,"current":""}],"standard_branding":{"logo":"//q.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png","font_settings":"web:Lato;web:Lato;web:Lato","hash_name":"e7dd94db7cc3bee324044ac43c3ae3cf9078db6b","background_color":"#8e8e94","theme":"theme_Edge","accent_color":"#415187"},"flags":{"HasCustomReservationURLs":"true","ConsentCheckboxIsRequired":"true","HAS_PUBLISHED_DATA":"false","SHOW_EMAIL_ADDRESS_ON_SITE":"true","SHOW_PHONE_NUMBER_ON_SITE":"true","ShowConsentCheckbox":"true","HasQuickReservationFeature":"true","VIEW_PHOTO_SETTING":"false","VIEW_CONTENT_SETTING":"true","ConsentCheckboxIsPrechecked":"false","CustomReservationURL":"https://gc.synxis.com/rez.aspx?Hotel=76195&Chain=21438&_ga=2.19918522.306041537.1509480345-1737836326.1500569828","GoogleAnalyticsID":"UA-55943644-1"},"branding_version":"766e5","product_type":{"sku":"WebDirectSubscription","affiliate_id":1241010,"name":"web-direct-subscription"}};
-    B.data.urls = {"verify":"https://reservation.booking.expert/en-gb/verify?h=hhecddb","reviews":"https://www.lakesideinn.net/en-gb/reviews","book":"https://reservation.booking.expert/en-gb/book?h=hhecddb","attractions":"https://www.lakesideinn.net/en-gb/location","facilities":"https://www.lakesideinn.net/en-gb/amenities","cookie_policy":"https://www.lakesideinn.net/en-gb/cookie-policy","sitemap":"https://www.lakesideinn.net/en-gb/sitemap","privacy_policy":"https://www.lakesideinn.net/en-gb/privacy-policy","home":"https://www.lakesideinn.net/en-gb","contact":"https://www.lakesideinn.net/en-gb/contact","rooms":"https://www.lakesideinn.net/en-gb/accommodations","photos":"https://www.lakesideinn.net/en-gb/photos","search":"https://reservation.booking.expert/en-gb/search?h=hhecddb","confirm":"https://reservation.booking.expert/en-gb/confirm?h=hhecddb","dining":"https://www.lakesideinn.net/en-gb/dining"};
+    B.data.hotel = {"footer_menus":[{"action":"sitemap","url":"https://www.lakesideinn.net/en-gb/sitemap","target_blank":false,"page_id":6683,"title":"bks_cms_menu_sitemap"},{"title":"bks_cms_menu_privacy_policy","page_id":6678,"url":"https://www.lakesideinn.net/en-gb/privacy-policy","target_blank":false,"action":"privacy_policy"},{"action_id":12054,"action":"article","target_blank":false,"url":"https://www.lakesideinn.net/en-gb/reservation-policy","page_id":68220,"title":"Reservation Policy"},{"page_id":64227,"title":"Employment","target_blank":false,"url":"https://www.lakesideinn.net/en-gb/employment","action":"article","action_id":11172},{"url":"https://www.lakesideinn.net/en-gb/cookie-policy","target_blank":false,"title":"bks_cms_menu_cookie_policy","page_id":6679,"action":"cookie_policy"}],"currency_code":"USD","address_object":{"cc1":"us","name":"Buzz's Lakeside Inn","zip":"MI 49461","address":"5700 North Scenic Drive","in_city":"in Whitehall","country":"United States","city":"Whitehall"},"hotel_flag_foreigner_tax_exemption":0,"hotel_id":1332477,"hotel_checkout_until":"11:00","header_menus":[{"current":1,"page_id":6662,"title":"bks_cms_menu_accommodations","target_blank":false,"url":"https://www.lakesideinn.net/en-gb/accommodations","action":"rooms"},{"action":"article","action_id":11160,"title":"About Us","page_id":64167,"url":"https://www.lakesideinn.net/en-gb/about-us","target_blank":false},{"title":"bks_cms_menu_dining","page_id":64166,"target_blank":false,"url":"https://www.lakesideinn.net/en-gb/dining","action":"dining"},{"action_id":11203,"action":"article","page_id":64347,"title":"Weddings & Events","target_blank":false,"url":"https://www.lakesideinn.net/en-gb/weddings-events"},{"action":"photos","page_id":6677,"title":"bks_cms_menu_photos","url":"https://www.lakesideinn.net/en-gb/photos","target_blank":false},{"title":"bks_cms_menu_location","page_id":6684,"target_blank":false,"url":"https://www.lakesideinn.net/en-gb/location","action":"attractions"},{"title":"bks_cms_menu_reviews","page_id":6681,"url":"https://www.lakesideinn.net/en-gb/reviews","target_blank":false,"action":"reviews"},{"page_id":6682,"title":"bks_cms_menu_amenities","url":"https://www.lakesideinn.net/en-gb/amenities","target_blank":false,"action":"facilities"},{"action":"contact","url":"https://www.lakesideinn.net/en-gb/contact","target_blank":false,"page_id":6680,"title":"bks_cms_menu_contact"}],"social_links":[{"hidden":false,"sort_id":2,"title":"TripAdvisor","id":3073,"hotel_id":1332477,"url":"http://www.tripadvisor.com/Hotel_Review-g42821-d615097-Reviews-Buzz_sLakeside_Inn-Whitehall_Muskegon_County_Michigan.html","is_hidden":false},{"is_hidden":false,"url":"https://www.facebook.com/BuzzsLakesideInn/","hotel_id":1332477,"id":3076,"title":"Facebook","sort_id":5,"hidden":false},{"sort_id":6,"hidden":false,"is_hidden":false,"hotel_id":1332477,"url":"https://www.instagram.com/buzzslakesideinn/","title":"Instagram","id":3077}],"product_type":{"sku":"WebDirectSubscription","affiliate_id":1241010,"name":"web-direct-subscription"},"standard_branding":{"font_settings":"web:Lato;web:Lato;web:Lato","hash_name":"e7dd94db7cc3bee324044ac43c3ae3cf9078db6b","accent_color":"#415187","background_color":"#8e8e94","theme":"theme_Edge","logo":"//q.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png"},"booking_engine":2,"time_zone":"America/Detroit","hotel_checkin_from":"15:00","branding_hash_name":"e7dd94db7cc3bee324044ac43c3ae3cf9078db6b","migrated_to_pages_api":true,"booking_engine_type":"THIRD_PARTY_URL","branding_version":"766e5","affiliate_id":1241010,"name":"Buzz's Lakeside Inn","longitude":-86.4112753961563,"primary_domain":"www.lakesideinn.net","webpage_languages":["de-de","en-gb","en-us","ms-my"],"primary_language":"xu","hotel_checkout_from":"","default_communication_language":"xu","hotel_poi_zoom":15,"preferred_contacts":{"contact_person_id":19040634,"name":"","telephone_1":"","email":"info@buzzslakesideinn.com","contact_type":"BKS_FAMILY_WEB"},"hotel_checkin_until":"22:00","flags":{"VIEW_CONTENT_SETTING":"true","HasQuickReservationFeature":"true","CustomReservationURL":"https://gc.synxis.com/rez.aspx?Hotel=76195&Chain=21438&_ga=2.19918522.306041537.1509480345-1737836326.1500569828","SHOW_EMAIL_ADDRESS_ON_SITE":"true","SHOW_PHONE_NUMBER_ON_SITE":"true","ConsentCheckboxIsRequired":"true","ConsentCheckboxIsPrechecked":"false","VIEW_PHOTO_SETTING":"false","GoogleAnalyticsID":"UA-55943644-1","HAS_PUBLISHED_DATA":"false","HasCustomReservationURLs":"true","ShowConsentCheckbox":"true"},"open_bookable":false,"short_code":"hhecddb","test_hotel":false,"sku":"WebDirectSubscription","latitude":43.3626292556039};
+    B.data.urls = {"cookie_policy":"https://www.lakesideinn.net/en-gb/cookie-policy","confirm":"https://reservation.booking.expert/en-gb/confirm?h=hhecddb","sitemap":"https://www.lakesideinn.net/en-gb/sitemap","contact":"https://www.lakesideinn.net/en-gb/contact","reviews":"https://www.lakesideinn.net/en-gb/reviews","dining":"https://www.lakesideinn.net/en-gb/dining","privacy_policy":"https://www.lakesideinn.net/en-gb/privacy-policy","attractions":"https://www.lakesideinn.net/en-gb/location","facilities":"https://www.lakesideinn.net/en-gb/amenities","rooms":"https://www.lakesideinn.net/en-gb/accommodations","search":"https://reservation.booking.expert/en-gb/search?h=hhecddb","photos":"https://www.lakesideinn.net/en-gb/photos","book":"https://reservation.booking.expert/en-gb/book?h=hhecddb","home":"https://www.lakesideinn.net/en-gb","verify":"https://reservation.booking.expert/en-gb/verify?h=hhecddb"};
     B.data.default_image = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I0ZBRkFGQTtzdHJva2Utd2lkdGg6MztzdHJva2U6Izk5OTtzdHJva2UtZGFzaGFycmF5OiA4LCA0O3ZlY3Rvci1lZmZlY3Q6IG5vbi1zY2FsaW5nLXN0cm9rZTsiIC8+Cjwvc3ZnPgo=";
 
-
+    
     B.data.search_results = "" || undefined;
+    
 
+    
 
-
-
-
+    
     B.data.policies = "" || undefined;
+    
 
+    
 
+    
 
+    
 
+    
 
-
-
-
-
-
-
-    B.env.accounting_config = {"decimal_separator":{"default":"."},"group_separator":{"default":","},"num_decimals":{"BIF":0,"KMF":0,"VUV":0,"COP":0,"VND":0,"ECS":0,"TND":3,"TJR":0,"PYG":0,"RUB":0,"HUF":0,"JPY":0,"default":2,"MGA":0,"JOD":3,"IQD":3,"OMR":3,"KRW":0,"MZM":0,"LAK":0,"XAF":0,"RWF":0,"TWD":0,"AFA":0,"XOF":0,"ISK":0,"DJF":0,"BHD":3,"TMM":0,"LYD":3,"CLP":0,"XPF":0,"BYR":0,"UGX":0,"IDR":0,"KWD":3,"GNF":0},"currency_separator":{"GBP":"","JPY":"","default":"&nbsp;","USD":""},"symbol_position":{"RON":"after","PLN":"after","default":"before","CZK":"after"},"html_symbol":{"ARS":"AR$","GBP":"&#163;","PLN":"z&#x0142;","BRL":"R$","RON":"lei","PHP":"&#8369;","SGD":"S$","TRY":"TL","XPF":"CFP","ILS":"&#x20AA;","CLP":"CL$","HKD":"HK$","USD":"US$","JPY":"&#165;","EUR":"&#x20AC;","CZK":"K&#269;","INR":"Rs.","IDR":"Rp"}} || undefined;
-
+    
+    B.env.accounting_config = {"group_separator":{"default":","},"symbol_position":{"PLN":"after","RON":"after","CZK":"after","default":"before"},"decimal_separator":{"default":"."},"num_decimals":{"KMF":"0","RWF":"0","LAK":"0","KRW":"0","BHD":"3","CLP":"0","BIF":"0","IQD":"3","LYD":"3","ISK":"0","VUV":"0","BYR":"0","TJR":"0","JOD":"3","JPY":"0","OMR":"3","GNF":"0","IDR":"0","VND":"0","XOF":"0","COP":"0","ECS":"0","TMM":"0","TND":"3","RUB":"0","MZM":"0","MGA":"0","HUF":"0","DJF":"0","UGX":"0","XPF":"0","KWD":"3","AFA":"0","default":"2","TWD":"0","PYG":"0","XAF":"0"},"currency_separator":{"USD":"","JPY":"","GBP":"","default":"&nbsp;"},"html_symbol":{"HKD":"HK$","EUR":"&#x20AC;","ILS":"&#x20AA;","SGD":"S$","XPF":"CFP","ARS":"AR$","INR":"Rs.","CZK":"K&#269;","JPY":"&#165;","TRY":"TL","IDR":"Rp","GBP":"&#163;","PHP":"&#8369;","CLP":"CL$","USD":"US$","BRL":"R$","RON":"lei","PLN":"z&#x0142;"}} || undefined;
+    
 
     B.env.month_names = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
     B.env.full_month_names = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     B.env.day_of_week_names = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
     B.env.full_day_of_week_names = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-
+    
         B.env.jstmpl_date_format = {"short_date_with_weekday_without_year":"{short_weekday} {day_of_month} {short_month_name}","day_month_year_other":"{day_name_other} {month_name} {full_year}","numeric_day_month_year_from":"from {day_name_0}/{month_name_0}/{full_year}","day_short_month_time_between":"{day_of_month} {short_month_name}, {time}\u2013{time_until}","short_date_without_year":"{day_of_month} {short_month_name}","day_short_month_year_other":"{day_name_other} {short_month_name} {full_year}","date_with_short_weekday_without_year":"{short_weekday} {day_of_month} {month_name}","day_of_month_only":"{day_of_month}","short_date":"{day_of_month} {short_month_name} {full_year}","short_date_with_weekday":"{short_weekday} {day_of_month} {short_month_name} {full_year}","numeric_day_month_year_until":"until {day_name_0}/{month_name_0}/{full_year}","date_with_short_weekday_with_year":"{short_weekday} {day_of_month} {month_name} {full_year}","short_date_without_year_range":"{day_of_month} {short_month_name} - {day_of_month_until} {short_month_name_until}","long_date_range_both_years":"{day_of_month} {month_name} {full_year} - {day_of_month_until} {month_name_until} {full_year_until}","short_month_with_year":"{short_month_name} {full_year}","numeric_date_range_both_years":"{day_of_month}/{month}/{full_year} - {day_of_month_until}/{month_until}/{full_year_until}","day_short_month_year_from":"from {day_name} {short_month_name} {full_year}","day_month_year":"{day_name} {month_name} {full_year}","month_with_year":"{month_name_with_year_only} {full_year}","date_with_weekday_time_until":"{weekday} {begin_marker}{day_of_month} {month_name}{end_marker} {full_year} until {time}","month_name_only":"{month_name_nom}","date_range_with_short_weekday_short_month":"{short_weekday} {day_of_month} {short_month_name} - {short_weekday_until} {day_of_month_until} {short_month_name_until}","numeric_day_month_year_between":"between {day_name_0}/{month_name_0}/{full_year} and {day_name_0_until}/{month_name_0_until}/{full_year_until}","day_month_year_between":"between {day_name} {month_name} {full_year} and {day_name_until} {month_name_until} {full_year_until}","day_month_year_from":"from {day_name} {month_name} {full_year}","numeric_day_month_year":"{day_name_0}/{month_name_0}/{full_year}","numeric_day_month_year_time_before":"before {time} on {day_name_0}/{month_name_0}/{full_year}","ux_day_month":"{day_1} {month_1}","date_with_weekday_from":"{weekday_from} {day_of_month} {month_name_from} {full_year}","day_month_on":"on {day_name} {month_name}","day_month_year_time_before":"before {time} on {day_name} {month_name} {year}","from_month_with_year":"since {month_name_from} {full_year}","date_with_weekday_time_from":"{weekday} {begin_marker}{day_of_month} {month_name}{end_marker} {full_year} from {time}","ux_day_month_on":"on {day_2} {month_2}","date_with_weekday_with_markers":"{weekday} {begin_marker}{day_of_month} {month_name}{end_marker} {full_year}","day_short_month_year_between":"{day_of_month} {short_month_name} {full_year} \u2013 {day_of_month_until} {short_month_name_until} {full_year_until}","date_with_weekday_time_from_until":"{weekday} {begin_marker}{day_of_month} {month_name}{end_marker} {full_year} from {time} until {time_until}","day_month_year_until":"until {day_name} {month_name} {full_year}","date_without_year":"{day_of_month} {month_name}","range_from_long_date_time_until_long_date_time":"from {day_of_month} {month_name} {full_year} at {time} until {day_of_month_until} {month_name_until} {full_year_until} at {time_until}","day_month_year_on":"on {day_name} {month_name} {full_year}","numeric_day_month_year_on":"on {day_name_0}/{month_name_0}/{full_year}","day_month_other":"{day_name_other} {month_name}","day_short_month_year_until":"until {day_name} {short_month_name} {full_year}","day_short_month_year_on":"on {day_name} {short_month_name} {full_year}","date_with_year":"{day_of_month} {month_name} {full_year}","day_short_month_between":"{day_of_month} {short_month_name} \u2013 {day_of_month_until} {short_month_name_until}","date_with_weekday":"{weekday} {day_of_month} {month_name} {full_year}","date_with_weekday_to":"{weekday_to} {day_of_month} {month_name_to} {full_year}","day_short_month_year":"{day_name} {short_month_name} {full_year}","numeric_date_range":"{day_of_month}/{month} - {day_of_month_until}/{month_until}","short_month_only":"{short_month_name}","day_month_until":"until {day_name} {month_name}","day_month_between":"between {day_name} {month_name} and {day_name_until} {month_name_until}","day_short_month_year_time_between":"{day_of_month} {short_month_name} {full_year}, {time}\u2013{time_until}","in_month_with_year":"in {month_name_in} {full_year}","numeric_date":"{day_of_month}/{month}/{full_year}","day_short_month_year_time":"{day_of_month} {short_month_name} {full_year}, {time}","day_month":"{day_name} {month_name}","short_weekday_only":"{short_weekday}","day_month_from":"from {day_name} {month_name}","day_short_month_time":"{day_of_month} {short_month_name}, {time}"};
         B.env.jstmpl_months = {"5":{"name_with_year_only":"May","name_in":"May","name_uc":"May","name_def_article_uc":"The May","in_month_lc":"in May","on_day_month":"05","to_month_lc":"to May","name_to":"May","genitive_lc":"May","name":"May","name_only":"May","name_other":"May","genitive_uc":"May","month_1":"May","short_name":"May","short_name_uc":"May","name_def_article_lc":"the May","name_lc":"May","name_from":"May","month_2":"May"},"4":{"name_with_year_only":"April","name_in":"April","name_uc":"April","name_def_article_uc":"The April","in_month_lc":"in April","on_day_month":"04","to_month_lc":"to April","name_to":"April","genitive_lc":"April","name":"April","name_only":"April","name_other":"April","genitive_uc":"April","month_1":"April","short_name":"Apr","short_name_uc":"April","name_def_article_lc":"the April","name_lc":"April","name_from":"April","month_2":"April"},"1":{"name_with_year_only":"January","name_in":"January","name_uc":"January","name_def_article_uc":"The January","in_month_lc":"in January","on_day_month":"01","to_month_lc":"to January","name_to":"January","genitive_lc":"January","name":"January","day_to":"January","name_only":"January","name_other":"January","genitive_uc":"January","month_1":"January","short_name":"Jan","short_name_uc":"January","name_def_article_lc":"the January","name_lc":"January","name_from":"January","month_2":"January"},"11":{"name_with_year_only":"November","name_in":"November","name_uc":"November","name_def_article_uc":"The November","in_month_lc":"in November","on_day_month":"11","to_month_lc":"to November","name_to":"November","genitive_lc":"November","name":"November","name_only":"November","name_other":"November","genitive_uc":"November","month_1":"November","short_name":"Nov","short_name_uc":"November","name_def_article_lc":"the November","name_lc":"November","name_from":"November","month_2":"November"},"8":{"name_with_year_only":"August","name_in":"August","name_uc":"August","name_def_article_uc":"The August","in_month_lc":"in August","on_day_month":"08","to_month_lc":"to August","name_to":"August","genitive_lc":"August","name":"August","name_only":"August","name_other":"August","genitive_uc":"August","month_1":"August","short_name":"Aug","short_name_uc":"August","name_def_article_lc":"the August","name_lc":"August","name_from":"August","month_2":"August"},"3":{"name_with_year_only":"March","name_in":"March","name_uc":"March","name_def_article_uc":"The March","in_month_lc":"in March","on_day_month":"03","to_month_lc":"to March","name_to":"March","genitive_lc":"March","name":"March","day_to":"March","name_only":"March","name_other":"March","genitive_uc":"March","month_1":"March","short_name":"Mar","short_name_uc":"March","name_def_article_lc":"the March","name_lc":"March","name_from":"March","month_2":"March"},"6":{"name_with_year_only":"June","name_in":"June","name_uc":"June","name_def_article_uc":"The June","in_month_lc":"in June","on_day_month":"06","to_month_lc":"to June","name_to":"June","genitive_lc":"June","name":"June","name_only":"June","name_other":"June","genitive_uc":"June","month_1":"June","short_name":"Jun","short_name_uc":"June","name_def_article_lc":"the June","name_lc":"June","name_from":"June","month_2":"June"},"7":{"name_with_year_only":"July","name_in":"July","name_uc":"July","name_def_article_uc":"The July","in_month_lc":"in July","on_day_month":"07","to_month_lc":"to July","name_to":"July","genitive_lc":"July","name":"July","name_only":"July","name_other":"July","genitive_uc":"July","month_1":"July","short_name":"Jul","short_name_uc":"July","name_def_article_lc":"the July","name_lc":"July","name_from":"July","month_2":"July"},"9":{"name_with_year_only":"September","name_in":"September","name_uc":"September","name_def_article_uc":"The September","in_month_lc":"in September","on_day_month":"09","to_month_lc":"to September","name_to":"September","genitive_lc":"September","name":"September","name_only":"September","name_other":"September","genitive_uc":"September","month_1":"September","short_name":"Sept","short_name_uc":"September","name_def_article_lc":"the September","name_lc":"September","name_from":"September","month_2":"September"},"10":{"name_with_year_only":"October","name_in":"October","name_uc":"October","name_def_article_uc":"The October","in_month_lc":"in October","on_day_month":"10","to_month_lc":"to October","name_to":"October","genitive_lc":"October","name":"October","name_only":"October","name_other":"October","genitive_uc":"October","month_1":"October","short_name":"Oct","short_name_uc":"October","name_def_article_lc":"the October","name_lc":"October","name_from":"October","month_2":"October"},"2":{"name_with_year_only":"February","name_in":"February","name_uc":"February","name_def_article_uc":"The February","in_month_lc":"in February","on_day_month":"02","to_month_lc":"to February","name_to":"February","genitive_lc":"February","name":"February","day_to":"February","name_only":"February","name_other":"February","genitive_uc":"February","month_1":"February","short_name":"Feb","short_name_uc":"February","name_def_article_lc":"the February","name_lc":"February","name_from":"February","month_2":"February"},"12":{"name_with_year_only":"December","name_in":"December","name_uc":"December","name_def_article_uc":"The December","in_month_lc":"in December","on_day_month":"12","to_month_lc":"to December","name_to":"December","genitive_lc":"December","name":"December","name_only":"December","name_other":"December","genitive_uc":"December","month_1":"December","short_name":"Dec","short_name_uc":"December","name_def_article_lc":"the December","name_lc":"December","name_from":"December","month_2":"December"}};
         B.env.jstmpl_weekdays = {"2":{"short_uc":"Tue","name_other":"Tuesday","short":"Tue","name_lc":"Tuesday","name_to":"Tuesday","name_other_uc":"Tuesday","name_uc":"Tuesday","name_on":"Tuesday","name_from":"Tuesday","name":"Tuesday","shortest":"Tu"},"3":{"short_uc":"Wed","name_other":"Wednesday","short":"Wed","name_lc":"Wednesday","name_to":"Wednesday","name_other_uc":"Wednesday","name_uc":"Wednesday","name_on":"Wednesday","name_from":"Wednesday","name":"Wednesday","shortest":"We"},"8":{"short_uc":"short_uc","name_other":"name_other","short":"short","name_lc":"every day","name_to":"name_to","name_other_uc":"name_other_uc","name_uc":"name_uc","name_on":"name_on","name_from":"name_from","name":"Every day","shortest":"shortest"},"4":{"short_uc":"Thu","name_other":"Thursday","short":"Thu","name_lc":"Thursday","name_to":"Thursday","name_other_uc":"Thursday","name_uc":"Thursday","name_on":"Thursday","name_from":"Thursday","name":"Thursday","shortest":"Th"},"7":{"short_uc":"Sun","name_other":"Sunday","short":"Sun","name_lc":"Sunday","name_to":"Sunday","name_other_uc":"Sunday","name_uc":"Sunday","name_on":"Sunday","name_from":"Sunday","name":"Sunday","shortest":"Su"},"6":{"short_uc":"Sat","name_other":"Saturday","short":"Sat","name_lc":"Saturday","name_to":"Saturday","name_other_uc":"Saturday","name_uc":"Saturday","name_on":"Saturday","name_from":"Saturday","name":"Saturday","shortest":"Sa"},"1":{"short_uc":"Mon","name_other":"Monday","short":"Mon","name_lc":"Monday","name_to":"Monday","name_other_uc":"Monday","name_uc":"Monday","name_on":"Monday","name_from":"Monday","name":"Monday","shortest":"Mo"},"5":{"short_uc":"Fri","name_other":"Friday","short":"Fri","name_lc":"Friday","name_to":"Friday","name_other_uc":"Friday","name_uc":"Friday","name_on":"Friday","name_from":"Friday","name":"Friday","shortest":"Fr"}};
+    
 
-
-
+    
         B.env.jstmpl_time_format = {"PM_symbol":{"name":"PM"},"AM_symbol":{"name":"AM"},"time":{"name":"{hour_24h}:{minutes}"}};
+    
 
+    
 
+    
 
+    
 
+    
 
+    
+        B.data.reviews_info = "";
+    
 
-
-
-
-
-
-        B.data.reviews_info = {"aggregate":{"scores":{"hotel_value":7.2,"hotel_staff":7.6,"hotel_location":9.0,"total":7.7,"hotel_comfort":7.5,"hotel_services":7.3,"hotel_clean":7.8},"hotel_average_score":7.7,"count":23},"more_reviews":true,"items":[{"language":"xu","text_trivial_flags":0,"hotel_average_score":7.5,"guest_name":"Gaye","anonymous":false,"id":4500355470,"completed":"2019-08-17T14:39:56","guest_countrycode":"us","approved":"yes"}]};
-
-
-
+    
         B.env.features_running = {};
+    
 
-
-
+    
         B.env.experiments_running = {"bks_wf_be_no_booking_fees":"","bks_wf_be_datepicker_focusable_checkout":""};
+    
 
-
-
+    
         B.env.countries = "";
+    
+
+    
+
+    
+
+
+    
 
 
 
 
 
-
-
-
-
-
-
-
-
-    B.env.clientside_translation_tags = {"month":{"1":{"name_upper":"January"},"2":{"name_upper":"February"},"10":{"name_upper":"October"},"9":{"name_upper":"September"},"5":{"name_upper":"May"},"12":{"name_upper":"December"},"11":{"name_upper":"November"},"3":{"name_upper":"March"},"7":{"name_upper":"July"},"6":{"name_upper":"June"},"8":{"name_upper":"August"},"4":{"name_upper":"April"}},"weekday":{"7":{"short":"Sun"},"1":{"short":"Mon"},"3":{"short":"Wed"},"2":{"short":"Tue"},"5":{"short":"Fri"},"6":{"short":"Sat"},"4":{"short":"Thu"}},"bed_type":{"4":{"name_withnumber":"{bed_count} bunk beds"},"language_exception_7_1_name_withnumber":{"name_withnumber":"{bed_count} futon bed"},"language_exception_3_1_name_withnumber":{"name_withnumber":"{bed_count} extra-large double bed"},"language_exception_1_1_name_withnumber":{"name_withnumber":"{bed_count} single bed"},"language_exception_4_1_name_withnumber":{"name_withnumber":"{bed_count} bunk bed"},"7":{"name_withnumber":"{bed_count} futon beds"},"3":{"name_withnumber":"{bed_count} extra-large double beds"},"6":{"name_withnumber":"{bed_count} large double beds"},"language_exception_5_1_name_withnumber":{"name_withnumber":"{bed_count} sofa bed"},"language_exception_2_1_name_withnumber":{"name_withnumber":"{bed_count} double bed"},"1":{"name_withnumber":"{bed_count} single beds"},"2":{"name_withnumber":"{bed_count} double beds"},"5":{"name_withnumber":"{bed_count} sofa beds"},"language_exception_6_1_name_withnumber":{"name_withnumber":"{bed_count} large double bed"}},"private":{"bks_cms_website_customise_cta_search_button":"Search","bks_cms_menu_hotels":"Hotels","bks_cms_contact_message_error":"Your comments were not submitted due to error. Please, try again later or call us.","bks_cms_review_sort_by_rating_high_to_low":"Rating (high to low)","bks_cms_menu_specials":"Specials","language_exception_bks_be_children_number_1":"{num_children} child","bks_cms_reservations":"Reservations","bks_cms_review_provided_by_choice":"Verified reviews provided by","bks_review_adj_superb":"Superb","bks_review_adj_fabulous":"Fabulous","bks_cms_review_travel_companion_coworkers":"Colleagues","bks_cms_website_customise_cta_find_room_button":"Find a room","bks_cms_menu_tents":"Tents","bks_be_aria_lable_switch_to_next_month":"Move forward to switch to the next month.","bks_cms_menu_check_rates":"Check rates","bke_cms_menu_booking_review":"Booking.com reviews","bks_cms_menu_suites":"Suites","bks_be_aria_lable_date_selected_as_checkin_date":"Selected as check in date. {check_in_date}","bks_be_occupancy_max_adults":"Max adults:","bks_cms_menu_reviews":"Reviews","bks_cms_menu_local_attractions":"Local attractions","bks_cms_review_age_not_specified":"Age not specified","bks_be_must_be_numbers":"Must be numbers","bks_cms_featured_article_header":"Featured articles","bks_cms_menu_contact":"Contact","bks_be_too_many_characters":"Text is too long","bks_be_aria_lable_select_checkout_date":"Select {check_out_date} as your check out date. It's available.","sq_metres":"m²","bks_cms_website_customise_cta_reserve_button":"Reserve","bks_cms_menu_apartments":"Apartments","bks_cms_review_trip_type_choice_business":"Business","bks_cms_menu_local_guide":"Local guide","bks_be_choose_guests_aria_label":"Choose guests","bks_cms_review_trip_type_choice_personal_business":"Personal and business","bks_cms_score_breakdown":"Score breakdown","language_exception_bks_cms_hotel_compare_score_review_1":"Score from {num_reviews} review","language_exception_bks_cms_review_helpful_votes_1":"{start_bold}{num} person{end_bold} found this review helpful","bks_cms_menu_check_availability":"Check availability","bks_be_credit_card_enter_valid_expiry":"Please fill in a valid expiration date","bks_be_required":"Required","bks_cms_menu_dining":"Dining","bks_cms_no_comments":"There are no comments available for this review.","bks_cms_menu_destinations":"Destinations","bks_cms_review_empty_subheader":"Book with us and be the first to share your experience.","bks_cms_menu_inns":"Inns","bks_cms_close":"Close","bks_cms_menu_more_info":"More info","bks_cms_menu_local_area":"Local area","bks_cms_menu_enquire_now":"Enquire now","bks_cms_menu_resorts":"Resorts","bks_be_select":"Select","bks_be_reviews_read_more":"Read more","bks_cms_hotel_location":"Property location","bks_cms_menu_reservations":"Reservations","bks_cms_menu_packages":"Packages","bks_cms_review_no_filter_selected":"No filters selected","bks_cms_menu_images":"Images","bks_cms_hotel_room_condition":"Room comfort","bks_cms_review_traveller_type_bcom":"Traveller type:","bks_cms_menu_destination_guide":"Destination Guide","bks_be_aria_lable_calendar_date_select_back":"Navigate back to interact with the calendar to select your check-out date.","bks_cms_menu_reservation_policy":"Reservation policy","bks_cms_review_travel_companion_family":"Families","bks_cms_hotel_services":"Facilities","bks_cms_menu_choice_review":"Choice reviews","bks_be_children":"Children","bks_cms_menu_bungalows":"Bungalows","bks_cms_menu_gallery":"Gallery","bks_cms_review_sort_by_helpful":"Most helpful","bks_cms_menu_plans":"Plans","bks_cms_review_age_25_to_34":"Guests between 25 to 34 years old","bks_cms_menu_excursions":"Excursions","bks_be_bed_size":"Bed Size","bks_cms_menu_facilities":"Facilities","bks_cms_menu_properties":"Properties","bks_cms_menu_offers":"Offers","language_exception_bks_cms_review_choice_recommend_with_percentage_1":"{percentage}% guests recommended this hotel","bks_cms_menu_vacation_rentals":"Vacation Rentals","bks_cms_review_age_35_to_44":"Guests between 35 to 44 years old","bks_cms_menu_area_attractions":"Area attractions","bks_cms_menu_rooms":"Rooms","bks_be_aria_lable_date_selected":"Selected. {date_selected}","bks_cms_departure":"Check-out","bks_cms_website_customise_cta_book_now_option":"Book now","bks_cms_review_age_55_to_64":"Guests between 55 to 64 years old","bks_cms_review_member_badge_gold":"Choice Privileges Gold","bks_cms_menu_location":"Location","bks_cms_review_sort_by_date_new_to_old":"Date (newer to older)","bks_cms_review_trip_type_choice":"Trip type:","bks_be_adult_number":"{num_adults} adults","bks_cms_loading_reviews":"Loading reviews","bks_be_children_number":"{num_children} children","bks_cms_review_score":"Review score","bks_cms_menu_services":"Services","bks_cms_website_customise_cta_book_option":"Book","bks_cms_next":"Next","bks_cms_website_customise_cta_check_availability_button":"Check availability","bks_cms_review_property_response_header":"Property response:","bks_be_invalid_email":"Invalid Email","bks_cms_review_filter_by":"Filter by:","bks_cms_reviewed_with_date":"Reviewed:","bks_be_loading_content_alt_label":"Loading content","bks_cms_menu_sign_up":"Sign up","bks_cms_review_helpful_votes":"{start_bold}{num} people{end_bold} found this review helpful","bks_cms_review_sort_by_date_old_to_new":"Date (older to newer)","bks_cms_review_empty_header":"Sorry, there are no reviews yet","bks_cms_menu_cookie_policy":"Cookie notice","bks_cms_menu_book_now":"Book now","bks_cms_menu_attractions":"Attractions","bks_be_aria_lable_date_selected_as_checkout_date":"Selected as check out date. {check_out_date}","bks_cms_review_choice_recommend_label":"Recommended this hotel","bks_be_aria_lable_calendar_instruction":"Navigate forward to interact with the calendar and select check in and check out dates for your trip. Use arrow keys to navigate between the dates.","bks_cms_bed_sizes":"Bed type(s)","bks_cms_room_size":"Room size","bks_cms_review_age_over_65":"Guests aged 65 years old and above","bks_be_captcha_entered_incorrectly":"Please tick the checkbox before proceeding.","bks_cms_menu_nearby_attractions":"Nearby attractions","bks_cms_review_number":"{num} reviews","bks_be_rp_room_details_header":"Room details","bks_cms_menu_cottages":"Cottages","bks_cms_view_all":"View all","bks_cms_menu_accommodations":"Accommodation","bks_cms_menu_around_town":"Around town","bks_cms_menu_photos":"Photos","bks_be_room_facilities":"Room facilities","bks_cms_review_age_45_to_54":"Guests between 45 to 54 years old","bks_cms_review_trip_type_choice_other":"Other","bks_be_adults":"Adults","bks_cms_contact_message_success":"The information has been submitted to us. Thank you!","bks_be_invalid_phone":"Invalid Phone number","bks_cms_previous":"Previous","bks_be_aria_lable_date_not_available":"Not available. {date}","language_exception_bks_be_adult_number_1":"1 adult","bks_be_aria_lable_select_checkin_date":"Select {check_in_date} as your check in date. It's available.","bks_cms_review_travel_companion_self":"Solo traveller","bks_cms_review_member_badge_platinum":"Choice Privileges Platinum","bks_cms_review_age_under_25":"Guests under 25 years old","bks_cms_menu_sitemap":"Sitemap","bks_be_aria_lable_calendar":"Calendar","bks_cms_menu_info":"More info","bks_cms_more_info":"More info","bks_cms_hotel_value":"Value","bks_cms_hotel_comfort":"Comfort","bks_cms_menu_map":"Map","bks_cms_menu_cabins":"Cabins","bks_cms_hotel_staff":"Staff","bks_cms_review_member_badge_non_elite":"Choice Privileges member","bks_cms_review_posted":"Posted:","bks_cms_review_travel_companion_spouse":"Couples","bks_cms_menu_vaction_rentals":"Vacation Rentals","bks_cms_review_trip_type_choice_personal":"Personal","bks_review_adj_exceptional":"Exceptional","bks_cms_menu_deals":"Deals","bks_be_sorry_something_wrong_developers_working_on_it":"Sorry, something has gone wrong. Please try again later.","bks_cms_menu_beds":"Beds","bks_review_adj_very_good":"Very good","bks_cms_hotel_wifi":"WiFi","bks_cms_menu_amenities":"Amenities","bks_cms_menu_log_in":"Log in","bks_cms_menu_bookings":"Bookings","language_exception_bks_cms_review_number_1":"{num} review","sq_ft_usa":"sq ft","bks_cms_anonymous":"Anonymous","bks_be_booking_process_current_step":"This is the current step","bks_cms_menu_privacy_policy":"Privacy policy","bks_cms_menu_bunks":"Bunks","bks_cms_review_choice_recommend_with_percentage":"{percentage}% guests recommended this hotel","bks_cms_review_member_badge_diamond":"Choice Privileges Diamond","bks_review_adj_good":"Good","bks_cms_menu_things_to_do":"Things to do","bks_cms_menu_houses":"Houses","bks_cms_review_sort_by_rating_low_to_high":"Rating (low to high)","bks_be_validate_email_confirm_different":"Please make sure the email addresses match","bks_cms_menu_signature_offers":"Signature offers","bks_cms_hotel_compare_score_review":"Score from {num_reviews} reviews","bks_cms_hotel_clean":"Cleanliness","bks_cms_menu_benefits":"Benefits","bks_cms_menu_promotions":"Promotions","bks_cms_review_sort_by":"Sort by:","bks_cms_menu_contact_us":"Contact us","bks_cms_menu_lodges":"Lodges","bks_be_aria_lable_switch_to_previous_month":"Move backward to switch to the previous month.","bks_cms_website_customise_cta_inquire_button":"Inquire","bks_be_aria_lable_calendar_date_select_forward":"Navigate forward to interact with the calendar to select your check-in date.","bks_cms_arrival":"Check-in","bks_cms_menu_villas":"Villas","sq_feet":"ft²","bks_cms_website_customise_cta_request_information_button":"Request information","bks_cms_review_travel_companion_friends":"Friends"}};
+    B.env.clientside_translation_tags = {"bed_type":{"language_exception_6_1_name_withnumber":{"name_withnumber":"{bed_count} large double bed"},"1":{"name_withnumber":"{bed_count} single beds"},"language_exception_4_1_name_withnumber":{"name_withnumber":"{bed_count} bunk bed"},"2":{"name_withnumber":"{bed_count} double beds"},"language_exception_1_1_name_withnumber":{"name_withnumber":"{bed_count} single bed"},"language_exception_7_1_name_withnumber":{"name_withnumber":"{bed_count} futon bed"},"7":{"name_withnumber":"{bed_count} futon beds"},"4":{"name_withnumber":"{bed_count} bunk beds"},"language_exception_5_1_name_withnumber":{"name_withnumber":"{bed_count} sofa bed"},"3":{"name_withnumber":"{bed_count} extra-large double beds"},"language_exception_2_1_name_withnumber":{"name_withnumber":"{bed_count} double bed"},"5":{"name_withnumber":"{bed_count} sofa beds"},"language_exception_3_1_name_withnumber":{"name_withnumber":"{bed_count} extra-large double bed"},"6":{"name_withnumber":"{bed_count} large double beds"}},"weekday":{"7":{"short":"Sun"},"5":{"short":"Fri"},"4":{"short":"Thu"},"6":{"short":"Sat"},"2":{"short":"Tue"},"3":{"short":"Wed"},"1":{"short":"Mon"}},"month":{"5":{"name_upper":"May"},"6":{"name_upper":"June"},"3":{"name_upper":"March"},"10":{"name_upper":"October"},"12":{"name_upper":"December"},"7":{"name_upper":"July"},"4":{"name_upper":"April"},"1":{"name_upper":"January"},"9":{"name_upper":"September"},"2":{"name_upper":"February"},"11":{"name_upper":"November"},"8":{"name_upper":"August"}},"private":{"bks_cms_view_all":"View all","bks_cms_menu_cottages":"Cottages","bks_cms_review_member_badge_non_elite":"Choice Privileges member","bks_cms_review_traveller_type_bcom":"Traveller type:","bks_cms_review_trip_type_choice_personal_business":"Personal and business","bks_be_aria_lable_date_selected_as_checkin_date":"Selected as check in date. {check_in_date}","bks_cms_hotel_location":"Property location","bks_cms_review_trip_type_choice_business":"Business","bks_cms_menu_signature_offers":"Signature offers","bks_cms_review_score":"Review score","bks_cms_menu_facilities":"Facilities","language_exception_bks_be_adult_number_1":"1 adult","bks_cms_menu_around_town":"Around town","bks_be_captcha_entered_incorrectly":"Please tick the checkbox before proceeding.","bks_cms_review_travel_companion_coworkers":"Colleagues","bks_cms_review_travel_companion_self":"Solo traveller","bks_cms_anonymous":"Anonymous","bks_cms_website_customise_cta_reserve_button":"Reserve","bks_cms_menu_villas":"Villas","bks_cms_review_travel_companion_spouse":"Couples","bks_be_aria_lable_date_selected_as_checkout_date":"Selected as check out date. {check_out_date}","bks_be_booking_process_current_step":"This is the current step","bks_cms_menu_bookings":"Bookings","bks_cms_menu_reviews":"Reviews","bks_cms_review_number":"{num} reviews","bks_cms_menu_apartments":"Apartments","bks_be_aria_lable_calendar_date_select_forward":"Navigate forward to interact with the calendar to select your check-in date.","bks_be_choose_guests_aria_label":"Choose guests","bks_cms_menu_benefits":"Benefits","bks_cms_menu_lodges":"Lodges","bks_cms_next":"Next","bks_cms_menu_properties":"Properties","bks_be_aria_lable_date_selected":"Selected. {date_selected}","bks_be_aria_lable_switch_to_next_month":"Move forward to switch to the next month.","bks_cms_menu_bungalows":"Bungalows","bks_cms_review_member_badge_gold":"Choice Privileges Gold","bks_cms_menu_info":"More info","bks_cms_menu_reservation_policy":"Reservation policy","bks_be_select":"Select","bks_cms_menu_local_area":"Local area","bks_cms_review_no_filter_selected":"No filters selected","bks_cms_review_helpful_votes":"{start_bold}{num} people{end_bold} found this review helpful","bks_cms_review_age_55_to_64":"Guests between 55 to 64 years old","bks_cms_hotel_comfort":"Comfort","bks_cms_hotel_compare_score_review":"Score from {num_reviews} reviews","bks_be_sorry_something_wrong_developers_working_on_it":"Sorry, something has gone wrong. Please try again later.","bks_cms_review_sort_by_date_old_to_new":"Date (older to newer)","bks_be_aria_lable_date_not_available":"Not available. {date}","bks_cms_hotel_room_condition":"Room comfort","bks_cms_review_trip_type_choice_personal":"Personal","bks_cms_menu_sitemap":"Sitemap","bks_cms_review_sort_by_helpful":"Most helpful","bks_cms_menu_reservations":"Reservations","bks_cms_menu_attractions":"Attractions","bks_cms_menu_area_attractions":"Area attractions","bks_cms_menu_vaction_rentals":"Vacation Rentals","bks_cms_menu_accommodations":"Accommodation","bks_cms_hotel_wifi":"WiFi","bks_cms_website_customise_cta_book_option":"Book","bks_cms_website_customise_cta_search_button":"Search","bks_cms_arrival":"Check-in","bks_cms_departure":"Check-out","bks_cms_bed_sizes":"Bed type(s)","bks_cms_menu_book_now":"Book now","bks_be_children":"Children","bks_cms_menu_resorts":"Resorts","bks_cms_more_info":"More info","bks_cms_menu_promotions":"Promotions","bks_cms_menu_destinations":"Destinations","bks_cms_review_member_badge_diamond":"Choice Privileges Diamond","bks_cms_menu_local_guide":"Local guide","bks_cms_reservations":"Reservations","bks_cms_previous":"Previous","bks_cms_menu_rooms":"Rooms","bks_cms_website_customise_cta_find_room_button":"Find a room","bks_cms_review_age_not_specified":"Age not specified","bks_cms_featured_article_header":"Featured articles","bks_cms_review_travel_companion_friends":"Friends","bks_cms_review_sort_by_rating_high_to_low":"Rating (high to low)","bks_be_children_number":"{num_children} children","bks_cms_menu_offers":"Offers","bks_cms_review_sort_by":"Sort by:","bks_be_must_be_numbers":"Must be numbers","bks_cms_menu_gallery":"Gallery","bks_cms_menu_specials":"Specials","bks_cms_menu_suites":"Suites","bks_cms_menu_photos":"Photos","bks_cms_website_customise_cta_check_availability_button":"Check availability","bks_cms_menu_tents":"Tents","bks_cms_website_customise_cta_book_now_option":"Book now","bks_cms_menu_location":"Location","bks_cms_hotel_value":"Value","bks_cms_menu_images":"Images","bks_cms_loading_reviews":"Loading reviews","bks_cms_review_age_25_to_34":"Guests between 25 to 34 years old","bks_cms_room_size":"Room size","bks_cms_review_empty_subheader":"Book with us and be the first to share your experience.","bks_cms_menu_cabins":"Cabins","bks_cms_menu_privacy_policy":"Privacy policy","bks_cms_review_trip_type_choice_other":"Other","bks_cms_menu_vacation_rentals":"Vacation Rentals","bke_cms_menu_booking_review":"Booking.com reviews","bks_cms_score_breakdown":"Score breakdown","bks_cms_review_age_under_25":"Guests under 25 years old","bks_cms_review_property_response_header":"Property response:","bks_cms_website_customise_cta_request_information_button":"Request information","bks_cms_menu_amenities":"Amenities","bks_cms_menu_map":"Map","bks_be_too_many_characters":"Text is too long","bks_cms_menu_excursions":"Excursions","language_exception_bks_be_children_number_1":"{num_children} child","bks_cms_review_age_35_to_44":"Guests between 35 to 44 years old","bks_cms_menu_sign_up":"Sign up","bks_be_aria_lable_select_checkin_date":"Select {check_in_date} as your check in date. It's available.","bks_be_validate_email_confirm_different":"Please make sure the email addresses match","bks_be_bed_size":"Bed Size","bks_be_aria_lable_calendar_date_select_back":"Navigate back to interact with the calendar to select your check-out date.","bks_review_adj_exceptional":"Exceptional","bks_cms_menu_enquire_now":"Enquire now","bks_cms_menu_things_to_do":"Things to do","bks_cms_hotel_services":"Facilities","bks_cms_review_member_badge_platinum":"Choice Privileges Platinum","bks_be_rp_room_details_header":"Room details","bks_cms_menu_check_availability":"Check availability","bks_cms_menu_local_attractions":"Local attractions","bks_be_loading_content_alt_label":"Loading content","bks_cms_website_customise_cta_inquire_button":"Inquire","bks_cms_review_choice_recommend_label":"Recommended this hotel","bks_cms_menu_houses":"Houses","bks_cms_review_sort_by_rating_low_to_high":"Rating (low to high)","bks_cms_menu_deals":"Deals","bks_cms_menu_plans":"Plans","bks_cms_menu_packages":"Packages","bks_cms_hotel_staff":"Staff","bks_cms_menu_more_info":"More info","bks_cms_close":"Close","bks_cms_review_provided_by_choice":"Verified reviews provided by","bks_cms_review_travel_companion_family":"Families","bks_cms_menu_bunks":"Bunks","sq_metres":"m²","bks_cms_hotel_clean":"Cleanliness","bks_cms_menu_services":"Services","bks_be_required":"Required","bks_cms_menu_contact":"Contact","bks_be_invalid_email":"Invalid Email","bks_be_room_facilities":"Room facilities","bks_cms_review_sort_by_date_new_to_old":"Date (newer to older)","bks_cms_review_posted":"Posted:","bks_be_aria_lable_select_checkout_date":"Select {check_out_date} as your check out date. It's available.","bks_cms_review_trip_type_choice":"Trip type:","bks_review_adj_very_good":"Very good","language_exception_bks_cms_review_choice_recommend_with_percentage_1":"{percentage}% guests recommended this hotel","bks_be_aria_lable_calendar_instruction":"Navigate forward to interact with the calendar and select check in and check out dates for your trip. Use arrow keys to navigate between the dates.","bks_cms_no_comments":"There are no comments available for this review.","sq_feet":"ft²","bks_cms_menu_inns":"Inns","bks_cms_menu_contact_us":"Contact us","bks_cms_review_filter_by":"Filter by:","bks_cms_review_age_over_65":"Guests aged 65 years old and above","language_exception_bks_cms_review_number_1":"{num} review","bks_cms_menu_choice_review":"Choice reviews","bks_review_adj_good":"Good","bks_cms_menu_beds":"Beds","bks_be_invalid_phone":"Invalid Phone number","bks_cms_review_age_45_to_54":"Guests between 45 to 54 years old","bks_cms_reviewed_with_date":"Reviewed:","bks_review_adj_fabulous":"Fabulous","bks_cms_contact_message_success":"The information has been submitted to us. Thank you!","language_exception_bks_cms_review_helpful_votes_1":"{start_bold}{num} person{end_bold} found this review helpful","bks_cms_contact_message_error":"Your comments were not submitted due to error. Please, try again later or call us.","bks_be_occupancy_max_adults":"Max adults:","bks_cms_menu_dining":"Dining","bks_be_reviews_read_more":"Read more","bks_cms_menu_cookie_policy":"Cookie notice","language_exception_bks_cms_hotel_compare_score_review_1":"Score from {num_reviews} review","bks_be_adult_number":"{num_adults} adults","bks_be_aria_lable_calendar":"Calendar","bks_be_adults":"Adults","bks_be_credit_card_enter_valid_expiry":"Please fill in a valid expiration date","bks_cms_menu_log_in":"Log in","sq_ft_usa":"sq ft","bks_cms_review_empty_header":"Sorry, there are no reviews yet","bks_be_aria_lable_switch_to_previous_month":"Move backward to switch to the previous month.","bks_cms_review_choice_recommend_with_percentage":"{percentage}% guests recommended this hotel","bks_review_adj_superb":"Superb","bks_cms_menu_destination_guide":"Destination Guide","bks_cms_menu_nearby_attractions":"Nearby attractions","bks_cms_menu_check_rates":"Check rates","bks_cms_menu_hotels":"Hotels"}};
 
 
 
@@ -175,61 +175,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-PBSCT4T');</script>
 <!-- End Google Tag Manager -->
     <title>Buzz's Lakeside Inn Official Site | Resorts in Whitehall</title>
-
-<meta property="og:url" content="https://www.lakesideinn.net/en-gb" /><meta property="og:type" content="business.business" />
-    <meta property="og:title" content="Buzz's Lakeside Inn Official Site | Resorts in Whitehall"/>
-    <meta property="og:description" content="Buzz&#39;s Lakeside Inn offers accommodation in Whitehall. The resort has a seasonal outdoor pool, barbecue and children&#39;s playground, and guests can enjoy a drink at the bar. Free WiFi is featured and free private parking is available on site.A balcony or patio are featured in certain rooms. A flat-screen TV and DVD player are provided.There is a gift shop at the property.This resort has water sports facilities and bike hire is available. Guests can enjoy various activities in the surroundings, including golfing, windsurfing and cycling. Gerald R Ford Airport is 90 km from the property." />
-    <meta property="og:image" content="https://r-fa.bstatic.com/xdata/images/xphoto/1920x810/32519623.jpg?k=aa8406820f4c504f27b89172772d1a989b1047a46e9b2fcd250693c0cd7a5636&o=" />
+    
 
 
-<script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "Hotel",
-        "name": "Buzz's Lakeside Inn Official Site | Resorts in Whitehall",
-        "description": "Buzz&#39;s Lakeside Inn offers accommodation in Whitehall. The resort has a seasonal outdoor pool, barbecue and children&#39;s playground, and guests can enjoy a drink at the bar. Free WiFi is featured and free private parking is available on site.A balcony or patio are featured in certain rooms. A flat-screen TV and DVD player are provided.There is a gift shop at the property.This resort has water sports facilities and bike hire is available. Guests can enjoy various activities in the surroundings, including golfing, windsurfing and cycling. Gerald R Ford Airport is 90 km from the property.",
-        "url": "https://www.lakesideinn.net/en-gb",
-        "image": "https://r-fa.bstatic.com/xdata/images/xphoto/1920x810/32519623.jpg?k=aa8406820f4c504f27b89172772d1a989b1047a46e9b2fcd250693c0cd7a5636&o=","aggregateRating": {
-                "bestRating": 10,
-                "@type": "AggregateRating",
-                "ratingValue":7.7,
-                "reviewCount":23},"address": {
-           "@type": "PostalAddress",
-           "addressCountry": {
-               "@type": "Country",
-               "name":"United States"},
-           "addressLocality":"Whitehall",
-           "postalCode":"MI 49461",
-           "streetAddress":"5700 North Scenic Drive"},
-        "telephone":""}
-    </script>
+    
 
 
 
-
-	<link rel="alternate" hreflang="ms" href="ms-my" />
-<link rel="alternate" hreflang="en-gb" href="index.html" />
-<link rel="alternate" hreflang="de" href="de-de" />
-<link rel="alternate" hreflang="ms-my" href="ms-my" />
-<link rel="alternate" hreflang="en" href="robots.txt" />
-<link rel="alternate" hreflang="de-de" href="de-de" />
-<link rel="alternate" hreflang="en-us" href="robots.txt" />
-<link rel="alternate" hreflang="x-default" href="https://www.lakesideinn.net" />
-<link rel="canonical" href="index.html" />
+    
+	
+	<link rel="alternate" hreflang="en" href="../../en-us/accommodations/lodge-standard" />
+<link rel="alternate" hreflang="en-us" href="../../en-us/accommodations/lodge-standard" />
+<link rel="alternate" hreflang="ms-my" href="../../ms-my/accommodations/lodge-standard" />
+<link rel="alternate" hreflang="de-de" href="../../de-de/accommodations/lodge-standard" />
+<link rel="alternate" hreflang="de" href="../../de-de/accommodations/lodge-standard" />
+<link rel="alternate" hreflang="ms" href="../../ms-my/accommodations/lodge-standard" />
+<link rel="alternate" hreflang="en-gb" href="../../accommodations/lodge-standard" />
+<link rel="alternate" hreflang="x-default" href="../../accommodations/lodge-standard" />
+<link rel="canonical" href="../../accommodations/lodge-standard" />
 
 
 
 
     <base href="">
 
-
+    
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Buzz&#39;s Lakeside Inn offers accommodation in Whitehall. The resort has a seasonal outdoor pool, barbecue and children&#39;s playground, and guests can enjoy a drink at the bar. Free WiFi is featured and free private parking is available on site.">
+    <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="format-detection" content="telephone=no">
-
+    
 
     <script type="text/javascript">
       (function (window, document, booking) {
@@ -610,35 +587,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window, document, window.booking);
 
     </script>
-    <link rel="stylesheet" href="r-cf.bstatic.com/psb/suite_sites/assets/index_c3db9c4048369f9dfa12.css" media="screen" onerror="throw new Error('CSS file has not been loaded: ' + this.href);" type="text/css"/>
+    <link rel="stylesheet" href="../../../r-cf.bstatic.com/psb/suite_sites/assets/room_7cea9b0d94d5ba4c1f4c.css" media="screen" onerror="throw new Error('CSS file has not been loaded: ' + this.href);" type="text/css"/>
 
     <link rel="stylesheet" id="branding_css" href="https://branding.booking.expert/api/brand/w/766e5/e7dd94db7cc3bee324044ac43c3ae3cf9078db6b.css" type="text/css" media="screen" />
 
-
+    
       <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    
+
+    
+
+    
+
+    
 
 
-
-
-
-
-
-
-
-
+    
   </head>
 
   <body
     id="shortcode_hhecddb"
-    class="theme_Edge pg-homepage
-
+    class="theme_Edge pg-roomdetail
+    
     " >
 
     <a href="https://www.lakesideinn.net/#main" class="a11y-skip-to-content">Skip to main content</a>
 
+  
 
-
-
+  
 <!-- Google Tag Manager (noscript) -->
 <noscript>
 	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBSCT4T" height="0" width="0"
@@ -646,38 +623,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-
+  
 
   <div id="CPolicy">
-
-
+  
+      
       <span>
-          To provide you with the best experience, Buzz's Lakeside Inn uses its own and third-party cookies on its website for technical, analytical and marketing purposes. By continuing to browse our site, you are agreeing to our use of cookies. Please consult our <a href='cookie-policy' target='_blank'>Cookie Notice</a> for more information.
+          To provide you with the best experience, Buzz's Lakeside Inn uses its own and third-party cookies on its website for technical, analytical and marketing purposes. By continuing to browse our site, you are agreeing to our use of cookies. Please consult our <a href='../../cookie-policy' target='_blank'>Cookie Notice</a> for more information.
       </span>
-
-
+  
+  
   <div id="closeEUbtn"></div>
   </div>
 
 
 
   <div class="body-overflow-wrap">
-
+    
 
     <header class="mast mast-fixed" id="mast-fixed" aria-hidden="true" tabindex="-1">
   <div class="inner">
-      <div class="logo-container"><a class="header-logo" target="_self" href="index.html" title="Buzz's Lakeside Inn">
+      <div class="logo-container"><a class="header-logo" target="_self" href="../../index.html" title="Buzz's Lakeside Inn">
+  
+    
+      <span class="full-size-logo"><img src="../../../r-fa.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png" alt="Buzz's Lakeside Inn"></span>
+      <span class="small-logo"><img src="../../../r-fa.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png" alt="Buzz's Lakeside Inn"></span>
 
-
-      <span class="full-size-logo"><img src="r-fa.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png" alt="Buzz's Lakeside Inn"></span>
-      <span class="small-logo"><img src="r-fa.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png" alt="Buzz's Lakeside Inn"></span>
-
-
-
+    
+  
 </a>
 </div><!--
    --><div class="mast-right">
-
+          
 
 <span data-component="core/modal" data-active-class="open" data-modal-class-name="overlay">
     <button class="menu-collapsed" data-trigger aria-haspopup="true">
@@ -690,22 +667,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script type="text/html" data-modal-content>
         <div id="overlay-menu-no-quickres" class="overlay-menu overlay-content">
             <div class="menu-content inner">
+                
 
+  
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
 
     <div data-component="core/openable" data-active-class="open" data-outside-close="true" class="relative header-language-wrap">
 
@@ -715,149 +692,149 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </button>
 
       <ul data-container class="dropdown-menu" >
-
+        
             <li class="">
-                <a data-ajax="false" target="_self" href="de-de">Deutsch</a>
+                <a data-ajax="false" target="_self" href="../../de-de/accommodations/lodge-standard">Deutsch</a>
             </li>
-
+        
             <li class="current">
-                <a data-ajax="false" target="_self" href="index.html">English</a>
+                <a data-ajax="false" target="_self" href="../../accommodations/lodge-standard">English</a>
             </li>
-
+        
             <li class="">
-                <a data-ajax="false" target="_self" href="robots.txt">American English</a>
+                <a data-ajax="false" target="_self" href="../../en-us/accommodations/lodge-standard">American English</a>
             </li>
-
+        
             <li class="">
-                <a data-ajax="false" target="_self" href="ms-my">Melayu</a>
+                <a data-ajax="false" target="_self" href="../../ms-my/accommodations/lodge-standard">Melayu</a>
             </li>
-
+        
       </ul>
 
     </div>
 
+  
 
 
 
-
-
+                
                 <ul class="menu-list count-count-6plus">
                     <li class="home-link">
-                        <a href="index.html"  target="_self"><span data-hover="Home">Home</span></a>
+                        <a href="../../index.html"  target="_self"><span data-hover="Home">Home</span></a>
                     </li>
-
-
-
-                        <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="accommodations.html"  target="_self">
+                    
+                        
+                        
+                        <li data-menu-id="" eventName="menu" class="track-event curr">
+                            <a href="../../accommodations"  target="_self">
                                 <span data-hover="Accommodation">Accommodation</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/about-us.html"  target="_self">
+                            <a href="../about-us"  target="_self">
                                 <span data-hover="About Us">About Us</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/dining.html"  target="_self">
+                            <a href="../dining"  target="_self">
                                 <span data-hover="Dining">Dining</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/weddings-events.html"  target="_self">
+                            <a href="../weddings-events"  target="_self">
                                 <span data-hover="Weddings & Events">Weddings & Events</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/photos.html"  target="_self">
+                            <a href="../photos"  target="_self">
                                 <span data-hover="Photos">Photos</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/location.html"  target="_self">
+                            <a href="../location"  target="_self">
                                 <span data-hover="Location">Location</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/reviews.html"  target="_self">
+                            <a href="../reviews"  target="_self">
                                 <span data-hover="Reviews">Reviews</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/amenities.html"  target="_self">
+                            <a href="../amenities"  target="_self">
                                 <span data-hover="Amenities">Amenities</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/contact.html"  target="_self">
+                            <a href="../contact"  target="_self">
                                 <span data-hover="Contact">Contact</span>
                             </a>
                         </li>
-
+                    
                 </ul>
 
                 <div class="hotel-contact">
                     <div class="hotel-contact-inner">
                         <div class="hotel-name">Buzz's Lakeside Inn</div>
+                        
+  
+  
+  
 
 
 
-
-
-
-
-
+                        
     <div class="hotel-address">
-
+        
             <div>5700 North Scenic Drive</div>
-
+        
             <div>Whitehall</div>
-
+        
             <div>MI 49461</div>
-
+        
             <div>United States</div>
-
+        
     </div>
 
 
 
 
-
-
-
-
-
+                        
+  
+  
+  
+    
       <div class="hotel-email">
         <a class="track-email" href="mailto:info@buzzslakesideinn.com">
           info@buzzslakesideinn.com
         </a>
       </div>
-
-
+    
+  
 
 
                     </div>
@@ -868,10 +845,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </span>
 
 
-
-
+          
+    
         <span data-component="react/HeaderBookNowButtonWrapper" data-no-store></span>
-
+    
 
 
       </div>
@@ -884,27 +861,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="mast-top clearfix">
             <div class="mast-top-inner">
                 <div class="mast-top-left">
-
-
-
-
+                    
+  
+  
+  
 
 
                 </div>
                 <div class="logo-container">
-                    <a class="header-logo" target="_self" href="index.html" title="Buzz's Lakeside Inn">
+                    <a class="header-logo" target="_self" href="../../index.html" title="Buzz's Lakeside Inn">
+  
+    
+      <span class="full-size-logo"><img src="../../../r-fa.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png" alt="Buzz's Lakeside Inn"></span>
+      <span class="small-logo"><img src="../../../r-fa.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png" alt="Buzz's Lakeside Inn"></span>
 
-
-      <span class="full-size-logo"><img src="r-fa.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png" alt="Buzz's Lakeside Inn"></span>
-      <span class="small-logo"><img src="r-fa.bstatic.com/data/bsuitewf/6f80cc77cb303a96564cbb638098cfefd83ac757.png" alt="Buzz's Lakeside Inn"></span>
-
-
-
+    
+  
 </a>
 
                 </div>
                 <div class="mast-actions">
-
+                    
 
 <span data-component="core/modal" data-active-class="open" data-modal-class-name="overlay">
     <button class="menu-collapsed" data-trigger aria-haspopup="true">
@@ -917,22 +894,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script type="text/html" data-modal-content>
         <div id="overlay-menu-no-quickres" class="overlay-menu overlay-content">
             <div class="menu-content inner">
+                
 
+  
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
 
     <div data-component="core/openable" data-active-class="open" data-outside-close="true" class="relative header-language-wrap">
 
@@ -942,149 +919,149 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </button>
 
       <ul data-container class="dropdown-menu" >
-
+        
             <li class="">
-                <a data-ajax="false" target="_self" href="de-de">Deutsch</a>
+                <a data-ajax="false" target="_self" href="../../de-de/accommodations/lodge-standard">Deutsch</a>
             </li>
-
+        
             <li class="current">
-                <a data-ajax="false" target="_self" href="index.html">English</a>
+                <a data-ajax="false" target="_self" href="../../accommodations/lodge-standard">English</a>
             </li>
-
+        
             <li class="">
-                <a data-ajax="false" target="_self" href="robots.txt">American English</a>
+                <a data-ajax="false" target="_self" href="../../en-us/accommodations/lodge-standard">American English</a>
             </li>
-
+        
             <li class="">
-                <a data-ajax="false" target="_self" href="ms-my">Melayu</a>
+                <a data-ajax="false" target="_self" href="../../ms-my/accommodations/lodge-standard">Melayu</a>
             </li>
-
+        
       </ul>
 
     </div>
 
+  
 
 
 
-
-
+                
                 <ul class="menu-list count-count-6plus">
                     <li class="home-link">
-                        <a href="index.html"  target="_self"><span data-hover="Home">Home</span></a>
+                        <a href="../../index.html"  target="_self"><span data-hover="Home">Home</span></a>
                     </li>
-
-
-
-                        <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="accommodations.html"  target="_self">
+                    
+                        
+                        
+                        <li data-menu-id="" eventName="menu" class="track-event curr">
+                            <a href="../../accommodations"  target="_self">
                                 <span data-hover="Accommodation">Accommodation</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/about-us.html"  target="_self">
+                            <a href="../about-us"  target="_self">
                                 <span data-hover="About Us">About Us</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/dining.html"  target="_self">
+                            <a href="../dining"  target="_self">
                                 <span data-hover="Dining">Dining</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/weddings-events.html"  target="_self">
+                            <a href="../weddings-events"  target="_self">
                                 <span data-hover="Weddings & Events">Weddings & Events</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/photos.html"  target="_self">
+                            <a href="../photos"  target="_self">
                                 <span data-hover="Photos">Photos</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/location.html"  target="_self">
+                            <a href="../location"  target="_self">
                                 <span data-hover="Location">Location</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/reviews.html"  target="_self">
+                            <a href="../reviews"  target="_self">
                                 <span data-hover="Reviews">Reviews</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/amenities.html"  target="_self">
+                            <a href="../amenities"  target="_self">
                                 <span data-hover="Amenities">Amenities</span>
                             </a>
                         </li>
-
-
-
+                    
+                        
+                        
                         <li data-menu-id="" eventName="menu" class="track-event ">
-                            <a href="en-gb/contact.html"  target="_self">
+                            <a href="../contact"  target="_self">
                                 <span data-hover="Contact">Contact</span>
                             </a>
                         </li>
-
+                    
                 </ul>
 
                 <div class="hotel-contact">
                     <div class="hotel-contact-inner">
                         <div class="hotel-name">Buzz's Lakeside Inn</div>
+                        
+  
+  
+  
 
 
 
-
-
-
-
-
+                        
     <div class="hotel-address">
-
+        
             <div>5700 North Scenic Drive</div>
-
+        
             <div>Whitehall</div>
-
+        
             <div>MI 49461</div>
-
+        
             <div>United States</div>
-
+        
     </div>
 
 
 
 
-
-
-
-
-
+                        
+  
+  
+  
+    
       <div class="hotel-email">
         <a class="track-email" href="mailto:info@buzzslakesideinn.com">
           info@buzzslakesideinn.com
         </a>
       </div>
-
-
+    
+  
 
 
                     </div>
@@ -1095,28 +1072,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </span>
 
 
+                    
+  
+  
+  
 
 
+                    
 
+  
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
 
     <div data-component="core/openable" data-active-class="open" data-outside-close="true" class="relative header-language-wrap">
 
@@ -1126,135 +1103,135 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </button>
 
       <ul data-container class="dropdown-menu" >
-
+        
             <li class="">
-                <a data-ajax="false" target="_self" href="de-de">Deutsch</a>
+                <a data-ajax="false" target="_self" href="../../de-de/accommodations/lodge-standard">Deutsch</a>
             </li>
-
+        
             <li class="current">
-                <a data-ajax="false" target="_self" href="index.html">English</a>
+                <a data-ajax="false" target="_self" href="../../accommodations/lodge-standard">English</a>
             </li>
-
+        
             <li class="">
-                <a data-ajax="false" target="_self" href="robots.txt">American English</a>
+                <a data-ajax="false" target="_self" href="../../en-us/accommodations/lodge-standard">American English</a>
             </li>
-
+        
             <li class="">
-                <a data-ajax="false" target="_self" href="ms-my">Melayu</a>
+                <a data-ajax="false" target="_self" href="../../ms-my/accommodations/lodge-standard">Melayu</a>
             </li>
-
+        
       </ul>
 
     </div>
 
+  
 
 
 
-
-
-
+                    
+    
         <span data-component="react/HeaderBookNowButtonWrapper" data-no-store></span>
-
+    
 
 
                 </div>
             </div>
         </div>
+        
 
-
-<nav class="menu-links count-6plus ">
+<nav class="menu-links count-6plus no-hero">
     <ul>
-
-
-
-        <li eventName="menu" class="track-event ">
-            <a href="accommodations" target="_self">
+    
+        
+        
+        <li eventName="menu" class="track-event curr">
+            <a href="../../accommodations" target="_self">
                 <span data-hover="Accommodation">
                         Accommodation
                 </span>
             </a>
         </li>
-
-
-
+    
+        
+        
         <li eventName="menu" class="track-event ">
-            <a href="en-gb/about-us.html" target="_self">
+            <a href="../about-us" target="_self">
                 <span data-hover="About Us">
                         About Us
                 </span>
             </a>
         </li>
-
-
-
+    
+        
+        
         <li eventName="menu" class="track-event ">
-            <a href="en-gb/dining.html" target="_self">
+            <a href="../dining" target="_self">
                 <span data-hover="Dining">
                         Dining
                 </span>
             </a>
         </li>
-
-
-
+    
+        
+        
         <li eventName="menu" class="track-event ">
-            <a href="en-gb/weddings-events.html" target="_self">
+            <a href="../weddings-events" target="_self">
                 <span data-hover="Weddings &amp; Events">
                         Weddings &amp; Events
                 </span>
             </a>
         </li>
-
-
-
+    
+        
+        
         <li eventName="menu" class="track-event ">
-            <a href="en-gb/photos.html" target="_self">
+            <a href="../photos" target="_self">
                 <span data-hover="Photos">
                         Photos
                 </span>
             </a>
         </li>
-
-
-
+    
+        
+        
         <li eventName="menu" class="track-event ">
-            <a href="en-gb/location.html" target="_self">
+            <a href="../location" target="_self">
                 <span data-hover="Location">
                         Location
                 </span>
             </a>
         </li>
-
-
-
+    
+        
+        
         <li eventName="menu" class="track-event ">
-            <a href="en-gb/reviews.html" target="_self">
+            <a href="../reviews" target="_self">
                 <span data-hover="Reviews">
                         Reviews
                 </span>
             </a>
         </li>
-
-
-
+    
+        
+        
         <li eventName="menu" class="track-event ">
-            <a href="en-gb/amenities.html" target="_self">
+            <a href="../amenities" target="_self">
                 <span data-hover="Amenities">
                         Amenities
                 </span>
             </a>
         </li>
-
-
-
+    
+        
+        
         <li eventName="menu" class="track-event ">
-            <a href="en-gb/contact.html" target="_self">
+            <a href="../contact" target="_self">
                 <span data-hover="Contact">
                         Contact
                 </span>
             </a>
         </li>
-
+    
     </ul>
 </nav>
 
@@ -1270,99 +1247,191 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id="main" class="body-wrap" role="main">
       <div class="main">
         <div class="content-wrap ">
+          
+          
+
+<div class="content-head">
+  <h1 class="sectionTitle">
+    Lodge Standard
+  </h1>
+  <nav id="subNav" class="subnav">
+    <ul class="subNavItems list" >
+      
+        <li class="current">
+          <a count="1" href="../../accommodations/lodge-standard"><span>Lodge Standard</span></a>
+        </li>
+      
+        <li class="">
+          <a count="2" href="../../accommodations/lodge-standard-plus"><span>Lodge Standard Plus</span></a>
+        </li>
+      
+        <li class="">
+          <a count="3" href="../../accommodations/lodge-deluxe-lakeview-king"><span>Lodge Deluxe Lakeview King</span></a>
+        </li>
+      
+        <li class="">
+          <a count="4" href="../../accommodations/lodge-deluxe-lakeview-suite"><span>Lodge Deluxe Lakeview Suite</span></a>
+        </li>
+      
+        <li class="">
+          <a count="5" href="../../accommodations/motel-lakeview-king"><span>Motel Lakeview King</span></a>
+        </li>
+      
+        <li class="">
+          <a count="6" href="../../accommodations/motel-gardenview"><span>Motel Gardenview</span></a>
+        </li>
+      
+        <li class="">
+          <a count="7" href="../../accommodations/motel-gardenview-handicap-accessible"><span>Motel Gardenview Handicap Accessible</span></a>
+        </li>
+      
+        <li class="">
+          <a count="8" href="../../accommodations/motel-deluxe-lakeview-suite"><span>Motel Deluxe Lakeview Suite</span></a>
+        </li>
+      
+        <li class="">
+          <a count="9" href="../../accommodations/motel-deluxe-lakeview"><span>Motel Deluxe Lakeview</span></a>
+        </li>
+      
+        <li class="">
+          <a count="10" href="../../accommodations/fairway-apartment"><span>Fairway Apartment</span></a>
+        </li>
+      
+        <li class="">
+          <a count="11" href="../../accommodations/fairway-studio"><span>Fairway Studio</span></a>
+        </li>
+      
+        <li class="">
+          <a count="12" href="../../accommodations/cottage-21"><span>Cottage 21</span></a>
+        </li>
+      
+        <li class="">
+          <a count="13" href="../../accommodations/cottage-20"><span>Cottage 20</span></a>
+        </li>
+      
+        <li class="">
+          <a count="14" href="../../accommodations/fairway-house"><span>Fairway House</span></a>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+
+<div class="content-body">
+  <div class="content-body-inner">
+
+    <!-- Gallery -->
+    <div class="room-photos room-photos-custom be-slider" aria-hidden="true">
+      
+        <button class="close-fullscreen" aria-label="Close"><svg class="bk-icon -iconset-close_bold" color="bui_color_white" fill="bui_color_white" height="24" width="24" viewBox="0 0 128 128" role="presentation" aria-hidden="true" focusable="false"><path d="M75.3 64l26.4-26.3a8 8 0 0 0-11.4-11.4L64 52.7 37.7 26.3a8 8 0 0 0-11.4 11.4L52.7 64 26.3 90.3a8 8 0 0 0 11.3 11.4L64 75.3l26.3 26.4a8 8 0 0 0 11.4-11.4z"/></svg></button> 
+        <div id="hero-slider" class="hero-slider flexslider flex-img-single">
+          <ul class="slides">
+            
+                <li class="slide"><img src="https://q-cf.bstatic.com" alt="" /></li>
+            
+                <li class="slide"><img src="https://q-cf.bstatic.com" alt="" /></li>
+            
+                <li class="slide"><img src="https://q-cf.bstatic.com" alt="" /></li>
+            
+          </ul>
+        </div>
+      
+    </div>
+
+     <!-- Room Details -->
+     <div class="room-details clearfix">
+      <h2 class="sectionTitle">Room details</h2>
+
+      
+        <div class="room-description rich-editor-text-output">
+          <div class="content">
+            Second floor of the main lodge with two double beds, A/C & Ceiling Fan.
+          </div>
+        </div>
+      
+
+      <div class="room-meta clearfix">
+        <div class="room-attributes clearfix">
+          
+            <div class="maxguests attribute">
+              <span data-icon class="attribute-icon iconfont-maxguests" aria-hidden="true"></span>
+              <span class="attribute-label">Max guests</span>
+              <span class="attribute-value">4</span>
+            </div>
+          
+
+          
 
 
 
-	<div class="content-section hero-wrap" aria-hidden="true">
-		<div class="hero-slider-wrap">
-			<div id="hero-slider" class="hero-slider flexslider homepage-hero">
-				<ul class="slides">
-
-
-						<li>
-							<div class="slide">
-								<img src="r-fa.bstatic.com/xdata/images/xphoto/1920x810/32519623.jpg?k=aa8406820f4c504f27b89172772d1a989b1047a46e9b2fcd250693c0cd7a5636&amp;o=" class="full" alt="dsc_0107-1.JPG.1920x810_0_235_10000.jpeg" aria-hidden="true"/>
-							</div>
-						</li>
 
 
 
-						<li>
-							<div class="slide">
-								<img src="q-fa.bstatic.com/xdata/images/xphoto/1920x810/32519625.jpg?k=54215375cbe5a8d6f3a86840888f807fa728533d1ddad54a8fa60d4a328c8229&amp;o=" class="full" alt="dsc_0201.JPG.1920x810_0_134_10000.jpeg" aria-hidden="true"/>
-							</div>
-						</li>
+  <div class="bedsize attribute">
+    <span data-icon class="attribute-icon iconfont-bedtype" aria-hidden="true"></span>
+    <span class="attribute-label">Bed type(s)</span>
+    <span class="attribute-value">
 
+    2 double beds
 
-
-						<li>
-							<div class="slide">
-								<img src="r-fa.bstatic.com/xdata/images/xphoto/1920x810/32519663.jpg?k=039fc37abdade46866b9da414b238b3741819f3863bce8e0b7ec5fe9a3cd91e8&amp;o=" class="full" alt="dsc_0421-2.JPG.1920x810_0_393_10000.jpeg" aria-hidden="true"/>
-							</div>
-						</li>
-
-
-
-						<li>
-							<div class="slide">
-								<img src="q-fa.bstatic.com/xdata/images/xphoto/1920x810/32519622.jpg?k=a3047cd70801d88c93ada93b6caddee9e9701e9e0f4680c9ec9ca8e7ec6fe3f4&amp;o=" class="full" alt="dsc_0171.JPG.1920x810_default.jpeg" aria-hidden="true"/>
-							</div>
-						</li>
-
-
-
-						<li>
-							<div class="slide">
-								<img src="r-fa.bstatic.com/xdata/images/xphoto/1920x810/31690797.jpg?k=009b6997bc151f9bc42e54ebb82534432acbcdb65ef2efb7770e59d6ad11bcd6&amp;o=" class="full" alt="" aria-hidden="true"/>
-							</div>
-						</li>
-
-
-
-						<li>
-							<div class="slide">
-								<img src="r-fa.bstatic.com/xdata/images/xphoto/1920x810/32519621.jpg?k=61530d4dbd3e153dbd01f27159efd8f7bbd435d082f610b7282cbaf2ffc52596&amp;o=" class="full" alt="dsc_0007.JPG.1920x810_0_422_10000.jpeg" aria-hidden="true"/>
-							</div>
-						</li>
-
-
-
-						<li>
-							<div class="slide">
-								<img src="q-fa.bstatic.com/xdata/images/xphoto/1920x810/32519664.jpg?k=fd7c5049f20726a87cb6ff7f2796b71a786789f3a3250e95f09094cd95736178&amp;o=" class="full" alt="pexels-photo-29858-1.jpg.1920x810_default.jpeg" aria-hidden="true"/>
-							</div>
-						</li>
-
-
-				</ul>
-			</div>
-		</div>
-	</div>
-
-
-
-  <div data-component="react/SitesSearchBar" class="content-section bodyquickres clearfix tc" role="search">
+    
+    
+    </span>
   </div>
 
 
 
-	<div class="content-section homepage-article clearfix">
-		<div class="inner clearfix">
-			<div class="clearfix">
-				<h1 class="featured-title heading-level2">Buzz&#39;s Lakeside Inn</h1>
-				<div class="short-description rich-editor-text-output">Buzz&#39;s Lakeside Inn offers accommodation in Whitehall. The resort has a seasonal outdoor pool, barbecue and children&#39;s playground, and guests can enjoy a drink at the bar. Free WiFi is featured and free private parking is available on site.<br /><br />A balcony or patio are featured in certain rooms. A flat-screen TV and DVD player are provided.<br /><br />There is a gift shop at the property.<br /><br />This resort has water sports facilities and bike hire is available. Guests can enjoy various activities in the surroundings, including golfing, windsurfing and cycling. Gerald R Ford Airport is 90 km from the property.</div>
-			</div>
-		</div>
-	</div>
+
+
+
+          
+        </div>
+      </div>
+
+      <!-- Amenities -->
+
+      
+      <h2 class="sectionTitle">Amenities</h2>
+
+      <div class="room-amenities clearfix">
+        <div class="content">
+          <ul class="ament" id="amenities">
+            
+          </ul>
+        </div>
+      </div>
+      
+
+    </div>
+
+    <!-- Book now btn -->
+    <div class="room-to-book">
+      <a class="book-room room_switch1" data-component="core/book_now_button" data-room-id="479" href="https://www.lakesideinn.net/#">
+        <span>Book now</span>
+      </a>
+    </div>
+
+    <!-- prev nex buttons -->
+    <div class="content-footer clearfix" id="next-previous">
+      <div class="prev">
+        <a href="https://www.lakesideinn.net/"><span class="label">Previous</span></a>
+      </div>
+
+      <div class="next">
+        <a href="https://www.lakesideinn.net/"><span class="label">Next</span></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
         </div>
       </div>
 
-
-    <script type="text/javascript" onerror="throw new Error('JS file has not been loaded: ' + this.src);" src="r-cf.bstatic.com/psb/suite_sites/assets/chunks/0_f2b1b06294b4d2949ab1.js"></script>
-<script type="text/javascript" onerror="throw new Error('JS file has not been loaded: ' + this.src);" src="r-cf.bstatic.com/psb/suite_sites/assets/chunks/1_0881cc70a45b7785efca.js"></script>
-<script type="text/javascript" onerror="throw new Error('JS file has not been loaded: ' + this.src);" src="r-cf.bstatic.com/psb/suite_sites/assets/index_9fc704471d718b51a532.js"></script>
+      
+    <script type="text/javascript" onerror="throw new Error('JS file has not been loaded: ' + this.src);" src="../../../r-cf.bstatic.com/psb/suite_sites/assets/chunks/0_f2b1b06294b4d2949ab1.js"></script>
+<script type="text/javascript" onerror="throw new Error('JS file has not been loaded: ' + this.src);" src="../../../r-cf.bstatic.com/psb/suite_sites/assets/chunks/1_0881cc70a45b7785efca.js"></script>
+<script type="text/javascript" onerror="throw new Error('JS file has not been loaded: ' + this.src);" src="../../../r-cf.bstatic.com/psb/suite_sites/assets/room_e43ebba538b5ab373b8b.js"></script>
 
     <script type="text/javascript">
 
@@ -1380,122 +1449,10 @@ booking.jstmpl('overlay_template', (function () { var T = ["\n    ","\n\n\u003cd
 
 
 
-
-
-
-  <div class="widgets-wrap">
-    <div class="widgets-wrap-inner">
-
-
-
-
-            <div class="content-section widget"
-                data-template="rooms_widget"
-                data-url="/api/rooms_widget"
-                data-additional-parameters='{ "has_custom_rooms": 1 }'>
-
-  <script type='text/javascript'>
-booking.jstmpl('rooms_widget', (function () { var T = ["\n      ","\n        \u003cdiv class=\"content-section rooms count-"," clearfix\"\u003e\n            \u003cdiv class=\"inner flexslider tiles-slider\"\u003e\n                \u003cdiv class=\"header\"\u003e\n                    \u003ch2 class=\"title\"\u003e\n                        \u003ca href=\"","\"\u003e","","/private/{fe_menu_title}/name","rooms","\u003c/a\u003e\n                    \u003c/h2\u003e\n                    \u003cdiv class=\"view-all\"\u003e\n                        \u003ca href=\"","/private/bks_cms_view_all/name","\u003c/a\u003e\n                    \u003c/div\u003e\n                \u003c/div\u003e\n                \u003cul class=\"slides\"\u003e\n                  ","\n                    \u003cli\u003e\n                        \u003ca href=\"","\" class=\"tile\"\u003e\n\t\t\t\t\t\t\t\u003cdiv class=\"resimg-holder aspect-2-1 room-bg-image\" style=\"background-image:url(",")\"\u003e\n                                ","img-placeholder-icon","iconset/landscape","\n                            \u003c/div\u003e\n                            \u003cdiv class=\"slide-title\"\u003e","\u003c/div\u003e\n                      \u003c/a\u003e\n                    \u003c/li\u003e\n                  ","\n                \u003c/ul\u003e\n            \u003c/div\u003e\n          \u003cscript type=\"text/javascript\"\u003eB.modules.flexslider.init();\u003c/script\u003e\n        \u003c/div\u003e\n      ","\n  "], V = ["data","fe_rooms","fe_room_count","B","hotel","action","action_id","fe_menu_title"], WV, LV, VA; return function (VS) { var s = '', r = this.fn; function suitesitesviews_partials_common_body_menu_action_to_title_inc1(s) { s += T[4]; { var LA= ( (r.MC(V[4]) || {})["header_menus"] || [] ); VS.unshift({'menu': null}); for(var LC=1, LM= LA.length, LV_menu; LC <= LM; LC++) { VS[0]['menu']= LV_menu= LA[LC - 1]; if ((r.MJ( LV_menu["action" ]  + "" === "" +  r.MB(V[5]) ))) { if (( ( (r.MJ( r.MB(V[5])  + "" !== "" +  "article" )) && (r.MJ( r.MB(V[5])  + "" !== "" +  "page" )) ) || (r.MJ( r.MB(V[6])  + "" === "" +  LV_menu["action_id" ] )) )) { r.MN("fe_menu_title", r.MG((LV_menu || {})["title"] )); break; s += T[4]; } } } VS.shift(); } { var LA= ( (r.MC(V[4]) || {})["footer_menus"] || [] ); VS.unshift({'menu': null}); for(var LC=1, LM= LA.length, LV_menu; LC <= LM; LC++) { VS[0]['menu']= LV_menu= LA[LC - 1]; if ((r.MJ( LV_menu["action" ]  + "" === "" +  r.MB(V[5]) ))) { if (( ( (r.MJ( r.MB(V[5])  + "" !== "" +  "article" )) && (r.MJ( r.MB(V[5])  + "" !== "" +  "page" )) ) || (r.MJ( r.MB(V[6])  + "" === "" +  LV_menu["action_id" ] )) )) { r.MN("fe_menu_title", r.MG((LV_menu || {})["title"] )); break; s += T[4]; } } } VS.shift(); } if ((r.MJ( /^bks_.*/ .test( r.MB(V[7]) )))) { s += r.ME(T[5], r.MB, r.MN, null); } else  { s += r.F['entities'](r.MC(V[7])); } return s; } s += T[0]; r.MN("fe_rooms", r.MB(V[0])); s += T[0]; r.MN("fe_room_count", (r.MB(V[1])).length); s += T[0]; if ((r.MJ( r.MB(V[2])  >  0 ))) { s += [ T[1], r.MC(V[2]), T[2], (((r.MC(V[3]) || {})["data"] || {})["urls"] || {})["rooms"], T[3] ].join( '' ); { VS.unshift({'action': T[6], 'hotel': r.MG(((r.MC(V[3]) || {})["data"] || {})["hotel"] )}); s = suitesitesviews_partials_common_body_menu_action_to_title_inc1(s); VS.shift(); } s += [ T[7], (((r.MC(V[3]) || {})["data"] || {})["urls"] || {})["rooms"], T[3], r.ME(T[8], r.MB, r.MN, null), T[9] ].join( '' ); { var LA= ( r.MC(V[1]) || [] ); VS.unshift({'room': null}); for(var LC=1, LM= LA.length, LV_room; LC <= LM; LC++) { VS[0]['room']= LV_room= LA[LC - 1]; s += [ T[10], ( LV_room["url" ] || r.MC(V[3])["data" ]["urls" ]["rooms" ] ), T[11], r.STATIC_HOSTNAME(LV_room["images" ][0 ]["url" ], 0,0,0,0), T[12] ].join( '' ); if ((r.MJ( LV_room["images" ].toString().length  <  1 ))) { s +=                         ( VS.unshift({'class': T[13], 'name': T[14]}), (VA = r.HELPER("icon", VS[0])), VS.shift(), VA ) ; } s += [ T[15], (LV_room || {})["name"], T[16] ].join( '' ); } VS.shift(); } s += T[17]; } s += T[18]; return s; }; } )());
-</script>
-
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-               <div data-component="react/FacilitiesWidget" class="content-section"></div>
-
-
-
-
-
-
-
-
-
-
-    <div class="content-section location">
-        <div class="inner">
-            <div class="header">
-                <h2 class="title">
-                    <a href="en-gb/location.html">Location</a>
-                </h2>
-                <a class="location-link button-link" href="en-gb/location.html">
-                    View attractions
-                </a>
-            </div>
-            <div class="location-content clearfix">
-                <div class="location-map">
-                    <div class="property-location-map mapimgs">
-                        <a href="https://maps.google.com/maps?q=43.3626292556039,-86.4112753961563" target="_blank">
-                            <img src="https://reservation.booking.expert/api/googlemap.png?h=hhecddb&lang=en-gb&size=1280x550&zoom=15&marker=red"
-                                alt="Our location"
-                                aria-hidden="true"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div class="location-meta">
-                    <div class="location-subhead">
-                        <a class="subhead-link" href="en-gb/location.html">Buzz's Lakeside Inn</a>
-                        <a class="view-link" href="en-gb/location.html">
-                            <span class="view-link-button">View attractions</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-              <span data-component="react/ReviewsWidget"></span>
-
-
-
-
-
-
-
-
-            <div class="content-section widget"
-                data-template="articles_widget"
-                data-url="/api/articles_widget">
-
-  <script type='text/javascript'>
-booking.jstmpl('articles_widget', (function () { var T = ["\n      ","\n        \u003cdiv class=\"content-section articles count-"," clearfix\"\u003e\n            \u003cdiv class=\"inner flexslider tiles-slider\"\u003e\n                \u003cdiv class=\"header\"\u003e\n                    \u003ch2 class=\"title\"\u003e","/private/bks_cms_featured_article_header/name","\u003c/h2\u003e\n                \u003c/div\u003e\n                \u003cul class=\"slides\"\u003e\n                  ","\n                    \u003cli\u003e\n                        \u003ca href=\"","\" class=\"tile\"\u003e\n                            \u003cdiv class=\"resimg-holder bg-image-ratio-3x1\"\n                                style=\"background-image:url(",")\"\u003e\n                            \u003c/div\u003e\n                            \u003cdiv class=\"slide-title\"\u003e","\u003c/div\u003e\n                      \u003c/a\u003e\n                    \u003c/li\u003e\n                  ","\n                \u003c/ul\u003e\n            \u003c/div\u003e\n              \u003cscript type=\"text/javascript\"\u003eB.modules.flexslider.init();\u003c/script\u003e\n        \u003c/div\u003e\n      ","\n  "], V = ["data","fe_articles","fe_count"], WV, LV, VA; return function (VS) { var s = '', r = this.fn; s += T[0]; r.MN("fe_articles", r.MB(V[0])); s += T[0]; r.MN("fe_count", (r.MB(V[1])).length); s += T[0]; if ((r.MJ( r.MB(V[2])  >  0 ))) { s += [ T[1], r.MC(V[2]), T[2], r.ME(T[3], r.MB, r.MN, null), T[4] ].join( '' ); { var LA= ( r.MC(V[1]) || [] ); VS.unshift({'article': null}); for(var LC=1, LM= LA.length, LV_article; LC <= LM; LC++) { VS[0]['article']= LV_article= LA[LC - 1]; s += [ T[5], (LV_article || {})["url"], T[6], r.STATIC_HOSTNAME(LV_article["photo" ]["urls" ]["710x236" ], 0,0,0,0), T[7], (LV_article || {})["article_title"], T[8] ].join( '' ); } VS.shift(); } s += T[9]; } s += T[10]; return s; }; } )());
-</script>
-
-
-
-            </div>
-
-
-
-
-    </div>
-  </div>
-
-
-
+    
 
   <div class="widget" data-template="badges_widget" data-url="/api/badges_widget">
-
+      
   <script type='text/javascript'>
 booking.jstmpl('badges_widget', (function () { var T = ["\n    ","\n    \u003cdiv class=\"badges clearfix\"\u003e\n      \u003cdiv class=\"badges-inner\"\u003e\n          ","\n          \u003cul class=\"badge-list clearfix\" id=\"Ol1\"\u003e\n              ","\n\n                     ","\n                      ","javascript:void(0);","disabled=\"disabled\"","\n                ","\n              ","\n                  ","http://","target=\"_blank\"","\n                       ","\n\n              \u003cli class=\"badge\"\u003e\n                \u003ca href=\"","\" "," ","\u003e\n                  ","\n                    \u003cdiv class=\"badge-image\"\u003e\n                        \u003cimg src=\"","\" alt=\"","\"\u003e\n                        \u003c/div\u003e\n                  ","\n                    \u003cdiv class=\"badge-title\"\u003e","\u003c/div\u003e\n                  ","\n                \u003c/a\u003e\n              \u003c/li\u003e\n            ","\n          \u003c/ul\u003e\n           ","\n      \u003c/div\u003e\n    \u003c/div\u003e\n  "], V = ["data","fe_badges","fe_badge_link_url","fe_badge_disabled","fe_badge_target","fe_badges_count"], WV, LV, VA; return function (VS) { var s = '', r = this.fn; s += T[0]; r.MN("fe_badges", r.MG((r.MC(V[0]) || [])[0] )); s += T[0]; r.MN("fe_badges_count", (r.MB(V[1])).length); s += T[1]; if ((r.MJ( r.MB(V[5])  >  0 ))) { s += T[2]; { var LA= ( r.MC(V[1]) || [] ); VS.unshift({'badge': null}); for(var LC=1, LM= LA.length, LV_badge; LC <= LM; LC++) { VS[0]['badge']= LV_badge= LA[LC - 1]; s += T[3]; if (( ( r.MK(LV_badge["link_url" ]) || (r.MJ( LV_badge["link_url" ].toString().length  ==  0 )) ) || (r.MJ( LV_badge["link_url" ]  + "" === "" +  "#" )) )) { s += T[4]; r.MN(V[2],T[5]); s += T[4]; r.MN(V[3],T[6]); s += T[7]; r.MN(V[4], undefined); s += T[8]; } else  { s += T[7]; if ((r.MJ( /^http[s]?:\/\// .test( LV_badge["link_url" ] )))) { s += T[9]; r.MN(V[2],r.F['entities']((LV_badge || {})["link_url"])); s += T[7]; } else  { s += T[9]; r.MN(V[2],[ T[10], r.F['entities']((LV_badge || {})["link_url"]) ].join( '' )); s += T[7]; } s += T[7]; r.MN(V[3], undefined); s += T[7]; r.MN(V[4],T[11]); s += T[12]; } s += [ T[13], r.MC(V[2]), T[14], r.F['entities'](r.MC(V[4])), T[15], r.F['entities'](r.MC(V[3])), T[16] ].join( '' ); if (r.MJ(r.MG((LV_badge || {})["logo_url"] ))) { s += [ T[17], (LV_badge || {})["logo_url"], T[18], (LV_badge || {})["title"], T[19] ].join( '' ); } s += T[9]; if ((r.MJ( /\S+/ .test( LV_badge["title" ] )))) { s += [ T[20], (LV_badge || {})["title"], T[21] ].join( '' ); } s += T[22]; } VS.shift(); } s += T[23]; } s += T[24]; return s; }; } )());
 </script>
@@ -1504,16 +1461,16 @@ booking.jstmpl('badges_widget', (function () { var T = ["\n    ","\n    \u003cdi
 
   </div>
 
-
-
+    
+        
   <div data-component="react/SitesSearchBar" class="content-section bodyquickres clearfix tc" role="search">
   </div>
 
 
+    
 
-
-
-
+    
+        
 <footer class="footer" role="footer">
     <div class="footer-inner">
         <div class="clearfix">
@@ -1521,47 +1478,47 @@ booking.jstmpl('badges_widget', (function () { var T = ["\n    ","\n    \u003cdi
             <div class="footer-group-a">
                 <div class="footer-contact">
                     <div class="hotel-name">Buzz's Lakeside Inn</div>
+                    
+  
+  
+  
 
 
-
-
-
-
-
+                    
     <div class="hotel-address">
-
+        
             <div>5700 North Scenic Drive</div>
-
+        
             <div>Whitehall</div>
-
+        
             <div>MI 49461</div>
-
+        
             <div>United States</div>
-
+        
     </div>
 
 
 
-
-
-
-
-
+                    
+  
+  
+  
+    
       <div class="hotel-email">
         <a class="track-email" href="mailto:info@buzzslakesideinn.com">
           info@buzzslakesideinn.com
         </a>
       </div>
+    
+  
 
 
-
-
-
+                    
 	<ul class="footer-social clearfix">
+		
+			
 
-
-
-
+			
 				<li id="tripAdvisorLink">
 			 		<div class="tripAdvisor-link">
 						<a class="tripAdvisorAnchor" target="_blank" href="http://www.tripadvisor.com/Hotel_Review-g42821-d615097-Reviews-Buzz_sLakeside_Inn-Whitehall_Muskegon_County_Michigan.html">
@@ -1570,12 +1527,12 @@ booking.jstmpl('badges_widget', (function () { var T = ["\n    ","\n    \u003cdi
 		 			</div>
 	 			</li>
 
+			
 
+		
+			
 
-
-
-
-
+			
 	    	<li id="facebookLink">
 	    		<div class="fb-link">
 				<a class="facebookAnchor" target="_blank" href="https://www.facebook.com/BuzzsLakesideInn/">
@@ -1584,12 +1541,12 @@ booking.jstmpl('badges_widget', (function () { var T = ["\n    ","\n    \u003cdi
 	  			</div>
 				</li>
 
+			
 
+		
+			
 
-
-
-
-
+			
 	      <li id="instagramLink">
 		<div class="instagram-link">
 			<a href="https://www.instagram.com/buzzslakesideinn/" target="_blank">
@@ -1598,9 +1555,9 @@ booking.jstmpl('badges_widget', (function () { var T = ["\n    ","\n    \u003cdi
 	    		</div>
 	  		</li>
 
+			
 
-
-
+		
 	</ul>
 
 
@@ -1610,37 +1567,37 @@ booking.jstmpl('badges_widget', (function () { var T = ["\n    ","\n    \u003cdi
             <div class="footer-group-b">
                 <nav class="footer-links">
                     <ul class="links-list clearfix">
-
-
-
+                        
+                            
+                            
                             <li>
-                                <a href="en-gb/sitemap.html" title="Sitemap" target="_self">Sitemap</a>
+                                <a href="../sitemap" title="Sitemap" target="_self">Sitemap</a>
                             </li>
-
-
-
+                        
+                            
+                            
                             <li>
-                                <a href="en-gb/privacy-policy.html" title="Privacy policy" target="_self">Privacy policy</a>
+                                <a href="../privacy-policy" title="Privacy policy" target="_self">Privacy policy</a>
                             </li>
-
-
-
+                        
+                            
+                            
                             <li>
-                                <a href="en-gb/reservation-policy.html" title="Reservation Policy" target="_self">Reservation Policy</a>
+                                <a href="../reservation-policy" title="Reservation Policy" target="_self">Reservation Policy</a>
                             </li>
-
-
-
+                        
+                            
+                            
                             <li>
-                                <a href="en-gb/employment.html" title="Employment" target="_self">Employment</a>
+                                <a href="../employment" title="Employment" target="_self">Employment</a>
                             </li>
-
-
-
+                        
+                            
+                            
                             <li>
-                                <a href="cookie-policy.html" title="Cookie notice" target="_self">Cookie notice</a>
+                                <a href="../../cookie-policy" title="Cookie notice" target="_self">Cookie notice</a>
                             </li>
-
+                        
                     </ul>
                 </nav>
             </div>
@@ -1650,13 +1607,13 @@ booking.jstmpl('badges_widget', (function () { var T = ["\n    ","\n    \u003cdi
 
         <div class="footer-credits ">
             <div class="powered" id="OnWeb">
-
+                
 
     <span>&copy; 2020</span>
-
+    
             <span>Digital marketing by <a href="http://suite.booking.com/" target="_blank">BookingSuite</a>.</span>
             <span>BookingSuite is a brand of <a href="https://www.booking.com" target="_blank">Booking.com</a>. Have confidence in the world-class customer support that comes along with Booking.com </span>
-
+    
 
 
             </div>
@@ -1668,19 +1625,19 @@ booking.jstmpl('badges_widget', (function () { var T = ["\n    ","\n    \u003cdi
 <!--footer end-->
 
 
+    
 
 
 
 
+      
 
-
-
-
+      
     </div>
 
+    
 
-
-
+    
   </div>
   </body>
 </html>
